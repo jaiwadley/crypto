@@ -14,7 +14,7 @@ proxypool2 us2.ethermine.org:4444
 #proxypool1 zec-us-east1.nanopool.org:6666
 #proxypool2 zec-us-west1.nanopool.org:6666
 globalcore 1900
-globalmem 4700
+globalmem 4900
 globalfan 90
 autoreboot true
 custompanel prti17918600
