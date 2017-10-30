@@ -8,8 +8,8 @@ proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
 #proxywallet 0x6d678086e87f16e5a61569d68add0c6b6559ab73
 proxypool1 us1.ethermine.org:4444
 proxypool2 us2.ethermine.org:4444
-#globalcore 1330
-#globalmem 2200
+globalcore 1330
+globalmem 2200
 globalfan 90
 #globalpowertune 60
 autoreboot true
