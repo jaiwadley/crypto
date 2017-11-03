@@ -9,9 +9,9 @@ proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
 proxypool1 us1.ethermine.org:4444
 proxypool2 us2.ethermine.org:4444
 globalcore 1250
-globalmem 1800
+globalmem 2000
 globalfan 90
-globalpowertune 7
+globalpowertune 5
 autoreboot true
 custompanel prti17918600
 loc f648fa 000-01
