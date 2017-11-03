@@ -11,7 +11,7 @@ proxypool2 us2.ethermine.org:4444
 globalcore 1300
 globalmem 2150
 globalfan 90
-#globalpowertune 60
+globalpowertune 6
 autoreboot true
 custompanel prti17918600
 loc f648fa 000-01
