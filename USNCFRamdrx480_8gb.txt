@@ -36,7 +36,7 @@ proxypool2 us1-etc.ethermine.org:14444
 globalcore 1300
 globalmem 2200
 globalfan 90
-globalpowertune 7
+globalpowertune 6
 maxgputemp 95
 
 #|||||individual rig settings|||||
