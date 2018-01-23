@@ -1,18 +1,60 @@
-#globalminer zcash-miner
+#|||||mining program for all rigs|||||
 globalminer claymore
-#globalminer sgminer-gm
-maxgputemp 97
+
+#|||||dual mining parameters|||||
+#dualminer enabled
+
+#<lbc dual mine>
+#dualminer-coin lbc
+#dualminer-wallet insert jason's lbc address here
+#dualminer-pool insert lbc pool here
+
+#|||||wallets and pools|||||
 stratumproxy enabled
-proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
-#proxywallet 0x966c32aD0190B74dc561db93EcAf3f439B7E1A77
-#proxywallet 0x6d678086e87f16e5a61569d68add0c6b6559ab73
-proxypool1 us1.ethermine.org:4444
-proxypool2 us2.ethermine.org:4444
+
+#<ETH wallet>
+#proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
+#proxywallet 0x966C32aD0190B74dc561db93EcAf3f439B7E1A77
+#proxywallet t1N74buU4u34nahQZsVABZAj4SLBK3ZP21z
+
+#<ETH pools>
+#proxypool1 us1.ethermine.org:4444
+#proxypool2 us2.ethermine.org:4444
+#proxypool1 eth-us-east1.nanopool.org:9999
+#proxypool2 eth-us-west1.nanopool.org:9999
+#proxypool1 zec-us-east1.nanopool.org:6666
+#proxypool2 zec-us-west1.nanopool.org:6666
+
+#<ETC wallet>
+proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
+
+#<ETC pools>
+proxypool1 us1-etc.ethermine.org:4444
+proxypool2 us1-etc.ethermine.org:14444
+
+#|||||global overclock and temp settings (best working settings)|||||
 globalcore 1200
 globalmem 2100
 globalfan 90
 globalpowertune 6
+maxgputemp 95
+
+#|||||individual rig settings|||||
+
+#<rig 003-05>
+#cor 489f1d 1750 1750 1750 1750 1750 1750
+#mem 489f1d 4400 4400 4400 4400 4400 4400
+#fan 489f1d 100 100 100 100 100 100 100
+#pwr 489f1d 140 140 140 140 140 140
+#miner 489f1d claymore
+#wallet 489f1d insert jason's etc wallet here
+#rigpool1 489f1d us1-etc.ethermine.org:4444
+#rigpool2 489f1d us1-etc.ethermine.org:14444
+
+|||||reboot|||||
 autoreboot true
+
+#|||||nicknames|||||
 custompanel prti17918600
 loc 4dc82f 000-01
 loc f648f5 000-02
@@ -30,6 +72,7 @@ loc 003873 000-13
 loc 24c98d 000-14
 loc f45baf 000-15
 loc 4d1d05 000-16
+
 loc 48a54a 001-01
 loc 27d5a6 001-02
 loc 48966c 001-03
@@ -46,6 +89,7 @@ loc 930513 001-13
 loc 48965c 001-14
 loc 489a0b 001-15
 loc 489306 001-16
+
 loc f450a7 002-01
 loc f450b9 002-02
 loc f450a6 002-03
@@ -57,6 +101,7 @@ loc f4508A 002-08
 loc 48881d 002-09
 loc 27d308 002-11
 loc 224f6d 002-12
+
 loc 489925 003-01
 loc 4899a0 003-02
 loc 489bb1 003-03
@@ -68,7 +113,7 @@ loc f6479b 003-08
 loc 4d1bd3 003-09
 loc 488921 003-10
 loc 27c703 003-11
-loc 48990f Test01
+
 loc b52f61 100-01
 loc 4d1e41 100-02
 loc 4d1a10 100-03
@@ -78,3 +123,5 @@ loc 4d1a18 100-06
 loc 4dc8d9 100-07
 loc 4dc925 100-08
 loc 0830e8 100-09
+
+loc 48990f Test01
