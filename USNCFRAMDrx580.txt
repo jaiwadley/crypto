@@ -4,7 +4,7 @@ globalminer claymore
 #|||||dual mining parameters|||||
 #dualminer enabled
 
-#<lbc dual mine>
+#(lbc dual mine)
 #dualminer-coin lbc
 #dualminer-wallet insert jason's lbc address here
 #dualminer-pool insert pool here
