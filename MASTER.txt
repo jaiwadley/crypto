@@ -41,6 +41,26 @@ maxgputemp 95
 
 #|||||individual rig settings|||||
 
+#<rig 000-01>
+#cor 4dc82f 2000 2000 2000 2000 2000
+#mem 4dc82f 1270 1350 1270 1270 1270
+#fan 4dc82f 100 100 100 100 100 100 100
+#pwr 4dc82f 140 140 140 140 140 140
+#miner 4dc82f claymore
+#wallet 4dc82f insert jason's etc wallet here
+#rigpool1 4dc82f us1-etc.ethermine.org:4444
+#rigpool2 4dc82f us1-etc.ethermine.org:14444
+
+#<rig 000-02>
+#cor 489f1d 1750 1750 1750 1750 1750 1750
+#mem 489f1d 4400 4400 4400 4400 4400 4400
+#fan 489f1d 100 100 100 100 100 100 100
+#pwr 489f1d 140 140 140 140 140 140
+#miner 489f1d claymore
+#wallet 489f1d insert jason's etc wallet here
+#rigpool1 489f1d us1-etc.ethermine.org:4444
+#rigpool2 489f1d us1-etc.ethermine.org:14444
+
 #<rig 003-05>
 #cor 489f1d 1750 1750 1750 1750 1750 1750
 #mem 489f1d 4400 4400 4400 4400 4400 4400
