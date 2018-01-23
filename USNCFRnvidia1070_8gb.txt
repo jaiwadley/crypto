@@ -42,7 +42,7 @@ maxgputemp 95
 #|||||individual rig settings|||||
 
 #(rig 000-013) has one card not overclocking
-mem 003873 4400 4400 4400 4400 4400 4400
+mem 003873 4000 4000 4000 4000 4000 4000
 
 #(rig 001-12) has one 1060, rest 1070s
 cor 489a01 1750 1950 1750 1750 1750 1750
