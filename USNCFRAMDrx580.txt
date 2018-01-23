@@ -9,7 +9,7 @@ globalminer claymore
 #dualminer-wallet insert jason's lbc address here
 #dualminer-pool insert pool here
 
-#|||||wallet and pools|||||
+#|||||wallets and pools|||||
 stratumproxy enabled
 
 #<ETH wallet>
