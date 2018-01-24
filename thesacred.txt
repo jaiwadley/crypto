@@ -170,6 +170,15 @@ mem 489a01 4300 4300 4300 4300 4300 4300
 #(rig 001-15) low hash rate, 6 rx 480s
 pwr 489a0b 3 3 3 3 3 3 
 
+#(rig 001-16) needs better powertune, 6 rx 470s
+pwr 489306 3 3 3 3 3 3
+
+#(002-02) low hash rate, change pwrtune? 5 rx 480s
+pwr 489674 3 3 3 3 3 
+
+#(rig 003-02) cards drop hash rate, 6 1070s
+
+
 #(rig 003-05) test
 #cor 489f1d 1750 1750 1750 1750 1750 1750
 #mem 489f1d 4400 4400 4400 4400 4400 4400
@@ -222,7 +231,7 @@ loc 489a0b 001-15
 loc 489306 001-16
 
 loc f450a7 002-01
-loc f450b9 002-02
+loc 489674 002-02
 loc f450a6 002-03
 loc f45bd4 002-04
 loc f450aa 002-05
