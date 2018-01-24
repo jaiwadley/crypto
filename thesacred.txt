@@ -159,7 +159,7 @@ mem 003873 4300 4000 4000 4000 4000 4300
 #rigpool1 489f1d us1-etc.ethermine.org:4444
 #rigpool2 489f1d us1-etc.ethermine.org:14444
 
-|||||reboot|||||
+#|||||reboot|||||
 autoreboot true
 
 #|||||nicknames|||||
