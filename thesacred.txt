@@ -59,73 +59,73 @@ fan 86.06.39.00.a8 100
 pwr 86.06.39.00.a8 140
 
 #(samsung rx 480 8 gb)
-cor 115-d000pil-100
-mem 115-d000pil-100
-fan 115-d000pil-100
-pwr 115-d000pil-100
-#vlt 115-D000PIL-100
+#cor 115-d000pil-100 
+#mem 115-d000pil-100 
+#fan 115-d000pil-100 
+#pwr 115-d000pil-100 
+#vlt 115-D000PIL-100 
 
-cor 115-d000pi0-100
-mem 115-d000pi0-100
-fan 115-d000pi0-100
-pwr 115-d000pi0-100
+#cor 115-d000pi0-100
+#mem 115-d000pi0-100
+#fan 115-d000pi0-100
+#pwr 115-d000pi0-100
 #vlt 115-d000pi0-100
 
-cor 113-rx480-8gb-160619jh-i1352m8-w80
-mem 113-rx480-8gb-160619jh-i1352m8-w80
-fan 113-rx480-8gb-160619jh-i1352m8-w80
-pwr 113-rx480-8gb-160619jh-i1352m8-w80
+#cor 113-rx480-8gb-160619jh-i1352m8-w80
+#mem 113-rx480-8gb-160619jh-i1352m8-w80
+#fan 113-rx480-8gb-160619jh-i1352m8-w80
+#pwr 113-rx480-8gb-160619jh-i1352m8-w80
 #vlt 113-rx480-8gb-160619jh-i1352m8-w80
 
-cor 113-rx480-8gb-i1338m8g-w80
-mem 113-rx480-8gb-i1338m8g-w80
-fan 113-rx480-8gb-i1338m8g-w80
-pwr 113-rx480-8gb-i1338m8g-w80
+#cor 113-rx480-8gb-i1338m8g-w80
+#mem 113-rx480-8gb-i1338m8g-w80
+#fan 113-rx480-8gb-i1338m8g-w80
+#pwr 113-rx480-8gb-i1338m8g-w80
 #vlt 113-rx480-8gb-i1338m8g-w80
 
-cor 113-rx480-8gb-c1338m8g-w80
-mem 113-rx480-8gb-c1338m8g-w80
-fan 113-rx480-8gb-c1338m8g-w80
-pwr 113-rx480-8gb-c1338m8g-w80
+#cor 113-rx480-8gb-c1338m8g-w80
+#mem 113-rx480-8gb-c1338m8g-w80
+#fan 113-rx480-8gb-c1338m8g-w80
+#pwr 113-rx480-8gb-c1338m8g-w80
 #vlt 113-rx480-8gb-c1338m8g-w80
 
-cor 113-d0090101_103
-mem 113-d0090101_103
-fan 113-d0090101_103
-pwr 113-d0090101_103
+#cor 113-d0090101_103
+#mem 113-d0090101_103
+#fan 113-d0090101_103
+#pwr 113-d0090101_103
 #vlt 113-d0090101_103
 
-cor 113-xxx-xxx 
-mem 113-xxx-xxx 
-fan 113-xxx-xxx 
-pwr 113-xxx-xxx 
+#cor 113-xxx-xxx 
+#mem 113-xxx-xxx 
+#fan 113-xxx-xxx 
+#pwr 113-xxx-xxx 
 #vlt 113-xxx-xxx 
 
 #(samsung rx 470 4 gb)
-cor 113-we353fu-m73
-mem 113-we353fu-m73
-fan 113-we353fu-m73
-pwr 113-we353fu-m73
+#cor 113-we353fu-m73
+#mem 113-we353fu-m73
+#fan 113-we353fu-m73
+#pwr 113-we353fu-m73
 #vlt 113-we353fu-m73
 
-cor 113-we353fu-m70
-mem 113-we353fu-m70
-fan 113-we353fu-m70
-pwr 113-we353fu-m70
+#cor 113-we353fu-m70
+#mem 113-we353fu-m70
+#fan 113-we353fu-m70
+#pwr 113-we353fu-m70
 #vlt 113-we353fu-m70
 
 #(samsung rx 580 8 gb)
-cor xxx-xxx-xxxx
-mem xxx-xxx-xxxx
-fan xxx-xxx-xxxx
-pwr xxx-xxx-xxxx
+#cor xxx-xxx-xxxx
+#mem xxx-xxx-xxxx
+#fan xxx-xxx-xxxx
+#pwr xxx-xxx-xxxx
 #vlt xxx-xxx-xxxx
 
 #(nvidia device 6 gb)
-cor 86.06.56.00.04
-mem 86.06.56.00.04
-fan 86.06.56.00.04
-pwr 86.06.56.00.04
+#cor 86.06.56.00.04 
+#mem 86.06.56.00.04
+#fan 86.06.56.00.04
+#pwr 86.06.56.00.04
 #vlt 86.06.56.00.04
 
 #|||||individual rig settings|||||
@@ -143,11 +143,11 @@ pwr 86.06.56.00.04
 #cor f648f3
 
 #(rig 000-013) has one card not overclocking
-mem 003873 4000 4000 4000 4000 4000 4000
+mem 003873 4300 4000 4000 4000 4000 4300
 
 #(rig 001-12) has one 1060, rest 1070s
-cor 489a01 1750 1950 1750 1750 1750 1750
-mem 489a01 4400 4200 4400 4400 4400 4400
+#cor 489a01 1750 1950 1750 1750 1750 1750
+#mem 489a01 4400 4200 4400 4400 4400 4400
 
 #(rig 003-05) test
 #cor 489f1d 1750 1750 1750 1750 1750 1750
