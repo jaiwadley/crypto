@@ -180,6 +180,11 @@ pwr 489a0b 3 3 3 3 3 3
 #rigpool1 489f1d us1-etc.ethermine.org:4444
 #rigpool2 489f1d us1-etc.ethermine.org:14444
 
+#(rig 003-09) low hash rate, 5 rx 580s
+#cor 4d1bd3 1300 1300 1300 1300 1300
+#mem 4d1bd3 2000 2000 2000 2000 2000
+pwr 4d1bd3 3 3 3 3 3 
+
 #|||||nicknames|||||
 custompanel prti17918600
 loc 4dc82f 000-01
