@@ -7,14 +7,6 @@ flags --cl-global-work 8192 --farm-recheck 200
 #|||||mining program for all rigs|||||
 globalminer claymore
 
-#|||||dual mining parameters|||||
-#dualminer enabled
-
-#(LBC dual mine)
-#dualminer-coin lbc
-#dualminer-wallet insert jason's lbc address here
-#dualminer-pool insert lbc pool here
-
 #|||||wallet and pools|||||
 stratumproxy enabled
 
@@ -37,6 +29,14 @@ proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
 #(ETC pools)
 proxypool1 us1-etc.ethermine.org:4444
 proxypool2 us1-etc.ethermine.org:14444
+
+#|||||dual mining parameters|||||
+#dualminer enabled
+
+#(LBC dual mine)
+#dualminer-coin lbc
+#dualminer-wallet insert jason's lbc address here
+#dualminer-pool insert lbc pool here
 
 #|||||global overclock and temp settings|||||
 #globalcore 1750
