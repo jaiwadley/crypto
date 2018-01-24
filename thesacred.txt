@@ -63,7 +63,7 @@ cor 115-d000pil-100
 mem 115-d000pil-100
 fan 115-d000pil-100
 pwr 115-d000pil-100
-#vlt 115-d000pil-100
+#vlt 115-D000PIL-100
 
 cor 115-d000pi0-100
 mem 115-d000pi0-100
@@ -121,7 +121,7 @@ fan xxx-xxx-xxxx
 pwr xxx-xxx-xxxx
 #vlt xxx-xxx-xxxx
 
-#(nvidia device??)
+#(nvidia device 6 gb)
 cor 86.06.56.00.04
 mem 86.06.56.00.04
 fan 86.06.56.00.04
