@@ -174,7 +174,7 @@ pwr 489a0b 3 3 3 3 3 3
 pwr 489306 3 3 3 3 3 3
 
 #(002-02) low hash rate, change pwrtune? 5 rx 480s
-pwr 489674 3 3 3 3 3 
+pwr 489674 3 3 3 3 3 3
 
 #(rig 003-02) cards drop hash rate, 6 1070s
 
