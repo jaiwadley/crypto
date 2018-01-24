@@ -40,7 +40,7 @@ proxypool2 us1-etc.ethermine.org:14444
 
 #|||||global overclock and temp settings|||||
 #globalcore 1750
-#globalmem 4310
+#globalmem 4300
 #globalfan 100
 #globalpowertune 150
 maxgputemp 95
@@ -49,18 +49,18 @@ maxgputemp 95
 
 #(nvidia gtx 1070 8 gb)
 cor 86.04.50.00.72 1750
-mem 86.04.50.00.72 4310
+mem 86.04.50.00.72 4300
 fan 86.04.50.00.72 100
 pwr 86.04.50.00.72 150
 
 cor 86.04.3b.00.70 1750
-mem 86.04.3b.00.70 4310
+mem 86.04.3b.00.70 4300
 fan 86.04.3b.00.70 100
 pwr 86.04.3b.00.70 150
 
 #(nvidia gtx 1060 6 gb)
 cor 86.06.39.00.a8 1750
-mem 86.06.39.00.a8 4200
+mem 86.06.39.00.a8 4300
 fan 86.06.39.00.a8 100
 pwr 86.06.39.00.a8 140
 
