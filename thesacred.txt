@@ -1,3 +1,9 @@
+#|||||reboot|||||
+autoreboot true
+
+#|||||flags|||||
+flags --cl-global-work 8192 --farm-recheck 200
+
 #|||||mining program for all rigs|||||
 globalminer claymore
 
@@ -158,9 +164,6 @@ mem 003873 4300 4000 4000 4000 4000 4300
 #wallet 489f1d insert jason's etc wallet here
 #rigpool1 489f1d us1-etc.ethermine.org:4444
 #rigpool2 489f1d us1-etc.ethermine.org:14444
-
-#|||||reboot|||||
-autoreboot true
 
 #|||||nicknames|||||
 custompanel prti17918600
