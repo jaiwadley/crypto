@@ -168,7 +168,7 @@ cor 489a01 1750 1750 1750 1750 1750 1750
 mem 489a01 4000 4000 4000 4000 4000 4000
 
 #(rig 001-15) low hash rate, 6 rx 480s
-pwr 489a0b 3 3 3 3 3 3 
+pwr 489a0b 2 2 2 2 2 2
 
 #(rig 001-16) needs better powertune, 6 rx 470s
 pwr 489306 3 3 3 3 3 3
