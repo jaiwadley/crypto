@@ -148,8 +148,53 @@ pwr 86.06.39.00.a8 140
 #(rig 000-04)
 #cor f648f3
 
+#(rig 000-05)
+#cor f450a9
+
+#(rig 000-06)
+#cor f64770
+
+#(rig 000-07)
+#cor f648fb
+
+#(rig 000-08)
+#cor f4508c
+
+#(rig 000-09)
+#cor 9319dc
+
+#(rig 000-10)
+#cor f450c0
+
+#(rig 000-11)
+#cor 0dc762
+
+#(rig 000-12)
+#cor 00372d
+
 #(rig 000-013) has one card not overclocking
 mem 003873 4000 4000 4000 4000 4000 4000
+
+#(rig 000-14)
+#cor 24c98d
+
+#(rig 000-15)
+#cor f45baf
+
+#(rig 000-16)
+#cor 4d1d05
+
+#(rig 001-01)
+#cor 48a54a
+
+#(rig 001-02)
+#cor 27d5a6
+
+#(rig 001-03)
+#cor 48966c
+
+#(rig 001-04)
+#cor 489664
 
 #(rig 001-05) cards drop hash very often
 cor 489995 1750 1750 1750 1750 1750 1750
@@ -163,9 +208,27 @@ mem 930414 4000 4000 4000 4000 4000 4000
 cor 48994f 1750 1750 1750 1750 1750 1750
 mem 48994f 4000 4000 4000 4000 4000 4000
 
+#(rig 001-08)
+#cor 489baf
+
+#(rig 001-09)
+#cor 489903
+
+#(rig 001-10)
+#cor 489f11
+
+#(rig 001-11)
+#cor 489909
+
 #(rig 001-12) cards drop hash often, 1 1060, 5 1070s
 cor 489a01 1750 1750 1750 1750 1750 1750
 mem 489a01 4000 4000 4000 4000 4000 4000
+
+#(rig 001-13)
+#cor 930513
+
+#(rig 001-14)
+#cor 48965c
 
 #(rig 001-15) low hash rate, 6 rx 480s
 pwr 489a0b 2 2 2 2 2 2
@@ -173,8 +236,38 @@ pwr 489a0b 2 2 2 2 2 2
 #(rig 001-16) needs better powertune, 6 rx 470s
 pwr 489306 3 3 3 3 3 3
 
-#(002-02) low hash rate, change pwrtune? 5 rx 480s
-pwr 489674 3 3 3 3 3 3
+#(rig 002-01)
+#cor f450a7
+
+#(rig 002-02) low hash rate, change pwrtune? 5 rx 480s
+#pwr 489674 
+
+#(rig 002-03)
+#cor f450a6
+
+#(rig 002-04)
+#cor f45bd4
+
+#(rig 002-05)
+#cor f450aa
+
+#(rig 002-06)
+#cor f45bb8
+
+#(rig 002-07)
+#cor f450b7
+
+#(rig 002-08)
+#cor f4508a
+
+#(rig 002-09)
+#cor 
+
+#(rig 002-10)
+#cor 
+
+#(rig 002-11)
+#cor 
 
 #(rig 003-02) cards drop hash rate, 6 1070s
 mem 4899a0 4000 4000 4000 4000 4000 4000
@@ -254,7 +347,7 @@ loc 489bb1 003-03
 loc 48924a 003-04
 loc 48990f 003-05
 loc 489668 003-06
-loc f450b8 003-07
+loc 08aada 003-07
 loc f6479b 003-08
 loc 4d1bd3 003-09
 loc 488921 003-10
