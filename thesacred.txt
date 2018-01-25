@@ -136,101 +136,112 @@ pwr 86.06.39.00.a8 140
 
 #|||||individual rig settings|||||
 
-#(rig 000-01)
+#(rig 000-01) 5 rx 480s
 #cor 4dc82f
 
-#(rig 000-02)
+#(rig 000-02) 6 rx 480s
 #cor f648f5
 
-#(rig 000-03)
-#cor f648ec
+#(rig 000-03) 6 rx 480s, two cards down constantly
+cor f648ec 1300 1300 1300 1300 1300 1300
+mem f648ec 2000 2000 2000 2000 2000 2000
+fan f648ec 90 90 90 90 90 90
+pwr f648ec 2 2 2 2 2 2 
+#vlt f648ec
 
-#(rig 000-04)
+#(rig 000-04) 6 rx 480s
 #cor f648f3
 
-#(rig 000-05)
+#(rig 000-05) 6 rx 480s
 #cor f450a9
 
-#(rig 000-06)
+#(rig 000-06) 6 rx 480s
 #cor f64770
 
-#(rig 000-07)
+#(rig 000-07) 6 rx 480s
 #cor f648fb
 
-#(rig 000-08)
+#(rig 000-08) 6 gtx 1060s
 #cor f4508c
 
-#(rig 000-09)
+#(rig 000-09) 6 gtx 1070s
 #cor 9319dc
 
-#(rig 000-10)
+#(rig 000-10) 6 rx 480s
 #cor f450c0
 
-#(rig 000-11)
+#(rig 000-11) 6 gtx 1070s
 #cor 0dc762
 
-#(rig 000-12)
+#(rig 000-12) 6 gtx 1070s
 #cor 00372d
 
-#(rig 000-013) has one card not overclocking
+#(rig 000-013) 6 gtx 1070s, has one card not overclocking
 mem 003873 4000 4000 4000 4000 4000 4000
 
-#(rig 000-14)
+#(rig 000-14) 6 gtx 1070s
 #cor 24c98d
 
-#(rig 000-15)
+#(rig 000-15) 6 gtx 1070s
 #cor f45baf
 
-#(rig 000-16)
+#(rig 000-16) 6 gtx 1060s
 #cor 4d1d05
 
-#(rig 001-01)
+#(rig 001-01) 6 gtx 1070s
 #cor 48a54a
 
-#(rig 001-02)
+#(rig 001-02) 4 gtx 1060s, 2 gtx 1070s
 #cor 27d5a6
 
-#(rig 001-03)
+#(rig 001-03) 6 gtx 1070s
 #cor 48966c
 
-#(rig 001-04)
+#(rig 001-04) 6 gtx 1070s
 #cor 489664
 
-#(rig 001-05) cards drop hash very often
+#(rig 001-05) 6 gtx 1070s, cards drop hash very often
 cor 489995 1750 1750 1750 1750 1750 1750
 mem 489995 4000 4000 4000 4000 4000 4000
 
-#(rig 001-06) cards not overclocking
+#(rig 001-06) 6 gtx 1070s, cards not overclocking
 cor 930414 1750 1750 1750 1750 1750 1750
 mem 930414 4000 4000 4000 4000 4000 4000
 
-#(rig 001-07) cards drop hash very often
+#(rig 001-07) 6 gtx 1070s, cards drop hash very often
 cor 48994f 1750 1750 1750 1750 1750 1750
 mem 48994f 4000 4000 4000 4000 4000 4000
 
-#(rig 001-08)
-#cor 489baf
+#(rig 001-08) 6 gtx 1070s
+cor 489baf 1750 1750 1750 1750 1750 1750
+mem 489baf 4150 4150 4150 4150 4150 4150
+pwr 489baf 140 140 140 140 140 140
 
-#(rig 001-09)
+#(rig 001-09) 6 gtx 1070s
 #cor 489903
 
-#(rig 001-10)
+#(rig 001-10) 6 gtx 1070s
 #cor 489f11
 
-#(rig 001-11)
+#(rig 001-11) 6 rx 480s
 #cor 489909
 
-#(rig 001-12) cards drop hash often, 1 1060, 5 1070s
+#(rig 001-12) 1 gtx 1060, 5 gtx 1070s, cards drop hash often
 cor 489a01 1750 1750 1750 1750 1750 1750
 mem 489a01 4000 4000 4000 4000 4000 4000
 
-#(rig 001-13)
-#cor 930513
+#(rig 001-13) 6 gtx 1070s, drop hash rate often, one card crashed
+cor 930513 1750 1750 1750 1750 1750 1750
+mem 930513 4000 4000 4000 4000 4000 4000
 
-#(rig 001-14)
+#(rig 001-14) 6 gtx 1070s, running well 
 #cor 48965c
+#mem 48965c 4250 4250 4250 4250 4250 4250
 
-#(rig 001-15) low hash rate, 6 rx 480s
+#(rig 001-15) 5 rx 480s, 3 cards crash often
+cor 489a0b 1300 1300 1300 1300 1300 1300 
+mem 489a0b 2000 2000 2000 2000 2000 2000
+fan 489a0b 90 90 90 90 90 90
 pwr 489a0b 2 2 2 2 2 2
 
 #(rig 001-16) needs better powertune, 6 rx 470s
@@ -267,20 +278,41 @@ pwr 489306 3 3 3 3 3 3
 #cor 
 
 #(rig 002-11)
-#cor 
+#cor 27d308
+
+#(rig 002-12)
+#cor 224f6d
+
+#(rig 003-01)
+#cor 489925
 
 #(rig 003-02) cards drop hash rate, 6 1070s
 mem 4899a0 4000 4000 4000 4000 4000 4000
 
-#(rig 003-05) test
-#cor 489f1d 1750 1750 1750 1750 1750 1750
-#mem 489f1d 4100 4100 4100 4100 4100 4100
-#fan 489f1d 100 100 100 100 100 100 100
-#pwr 489f1d 140 140 140 140 140 140
-#miner 489f1d claymore
-#wallet 489f1d insert jason's etc wallet here
-#rigpool1 489f1d us1-etc.ethermine.org:4444
-#rigpool2 489f1d us1-etc.ethermine.org:14444
+#(rig 003-03)
+#cor 489bb1
+
+#(rig 003-04)
+#cor 48924a
+
+#(rig 003-05)
+#cor 48990f
+#mem 
+#fan 
+#pwr 
+#miner 
+#wallet 
+#rigpool1 
+#rigpool2 
+
+#(rig 003-06)
+#cor 489668
+
+#(rig 003-07)
+#cor 08aada
+
+#(rig 003-08)
+#cor f6479b
 
 #(rig 003-09) low hash rate, 5 rx 580s
 #cor 4d1bd3 1300 1300 1300 1300 1300
