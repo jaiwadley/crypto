@@ -209,7 +209,7 @@ pwr 27d5a6 140 140 140 140 170 170
 #(rig 001-03) 6 gtx 1070s
 #cor 48966c
 
-#(rig 001-04) 6 gtx 1070s
+#(rig 001-04) 6 gtx 1070s, wasn't unstable until i just looked at it
 #cor 489664
 
 #(rig 001-05) 6 gtx 1070s, cards drop hash very often
@@ -271,7 +271,7 @@ fan 489674 100 100 100 100 100 100
 #cor f450a6
 fan f450a6 100 100 100 100 100 100
 
-#(rig 002-04) 4 rx 480s, 2 rx 470s, unstable at def, up fans since no AC
+#(rig 002-04) 4 rx 480s, 2 rx 470s, unstable at def, up fans since no AC, changed riser b/c not detecting 6
 #cor f45bd4
 fan f45bd4 100 100 100 100 100 100
 
@@ -282,7 +282,7 @@ fan f45bd4 100 100 100 100 100 100
 #pwr f450aa 
 fan f450aa 100 100 100 100 100 100
 
-#(rig 002-06) 6 rx 480s, one card oscillates, temp hi, up fans since no AC, cor def (1270) mem def (2000)
+#(rig 002-06) 1 rx 470, 5 rx 480s, one card oscillates, temp hi, up fans since no AC, cor def (1270) mem def (2000)
 #cor f45bb8
 #mem f45bb8
 #pwr f45bb8
@@ -330,16 +330,22 @@ pwr 4899a0 170 170 170 170 170 170
 #(rig 003-06)
 #cor 489668
 
-#(rig 003-07)
+#(rig 003-07) 2 rx 470s, 3 rx 480s, unstable at cor def 1290 mem def 2000, should be 6 cards, one not detected
 #cor 08aada
+#mem 08aada 
 
-#(rig 003-08)
+#(rig 003-08) 6 rx 480s, unstable at cor def (1290) mem def (2000)
 #cor f6479b
 
 #(rig 003-09) low hash rate, 5 rx 580s
 #cor 4d1bd3 1300 1300 1300 1300 1300
 #mem 4d1bd3 2000 2000 2000 2000 2000
 #pwr 4d1bd3 3 3 3 3 3 
+
+#(rig 100-04) unstable, cards drop to 0 constantly
+#cor 4d1e4f
+
+#(rig 100-05) unstable
 
 #(rig 100-09) special rig
 cor 0830e8 1600 1600 1600 1600 1600 1600 1600 1600
