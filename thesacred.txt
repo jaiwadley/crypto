@@ -251,8 +251,9 @@ fan 489a0b 90 90 90 90 90 90
 #(rig 001-16) needs better powertune, 6 rx 470s
 #pwr 489306 3 3 3 3 3 3
 
-#(rig 002-01)
+#(rig 002-01) 1 rx 470, 5 rx 480s, replaced 1 480 with 470, still unstable hash, temp high, up fans since no AC
 #cor f450a7
+fan f450a7 100 100 100 100 100 100
 
 #(rig 002-02) 5 rx 480s, 1 rx 470, replaced 1 480 with 470, low hash rate still, high temp, up fans since no AC
 #pwr 489674 
@@ -271,10 +272,11 @@ fan f450a6 100 100 100 100 100 100
 #pwr f450aa 
 fan f450aa 100 100 100 100 100 100
 
-#(rig 002-06) 6 rx 480s, one card crashed, one card oscillates
+#(rig 002-06) 1 rx 470, 5 rx 480s, replaced 1 480 with 470 bc one card crashed, one card oscillates, temp hi, up fans since no AC
 #cor f45bb8
 #mem f45bb8
 #pwr f45bb8
+fan f45bb8 100 100 100 100 100 100
 
 #(rig 002-07)
 #cor f450b7
