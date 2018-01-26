@@ -263,11 +263,15 @@ fan 489a0b 90 90 90 90 90 90
 #(rig 002-04)
 #cor f45bd4
 
-#(rig 002-05)
-#cor f450aa
+#(rig 002-05) 6 rx 480s, one card crashed
+#cor f450aa 
+#mem f450aa 
+#pwr f450aa 
 
-#(rig 002-06)
+#(rig 002-06) 6 rx 480s, one card crashed, one card oscillates
 #cor f45bb8
+#mem f45bb8
+#pwr f45bb8
 
 #(rig 002-07)
 #cor f450b7
@@ -310,6 +314,7 @@ pwr 4899a0 170 170 170 170 170 170
 #wallet 
 #rigpool1 
 #rigpool2 
+#vlt
 
 #(rig 003-06)
 #cor 489668
