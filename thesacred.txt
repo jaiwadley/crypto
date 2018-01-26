@@ -189,7 +189,7 @@ pwr 00372d 170 170 170 170 170 170
 #(rig 000-013) 6 gtx 1070s, has one card not overclocking
 mem 003873 4000 4000 4000 4000 4000 4000
 
-#(rig 000-14) 6 gtx 1070s
+#(rig 000-14) 6 gtx 1070s, crashed at least once at mem 4310, tone it down
 #cor 24c98d
 
 #(rig 000-15) 6 gtx 1070s
