@@ -47,19 +47,19 @@ maxgputemp 95
 
 #|||||per gpu settings|||||
 
-#(nvidia gtx 1070 8 gb)
-cor 86.04.50.00.72 1800
+#(nvidia gtx 1070 8 gb), cor def 2000, mem def 3800
+cor 86.04.50.00.72 1900
 mem 86.04.50.00.72 4200
 fan 86.04.50.00.72 90
 pwr 86.04.50.00.72 170
 
-cor 86.04.3b.00.70 1800
+cor 86.04.3b.00.70 1900
 mem 86.04.3b.00.70 4200
 fan 86.04.3b.00.70 90
 pwr 86.04.3b.00.70 170
 
-#(nvidia gtx 1060 6 gb)
-cor 86.06.39.00.a8 1850
+#(nvidia gtx 1060 6 gb), cor def 1950, mem def 3800
+cor 86.06.39.00.a8 1950
 mem 86.06.39.00.a8 4150
 fan 86.06.39.00.a8 90
 pwr 86.06.39.00.a8 140
@@ -138,6 +138,14 @@ pwr 86.06.39.00.a8 140
 
 #(rig 000-01) 6 rx 480s, stable with default settings so far of cor 1300, mem 2000, replaced oscililating card
 #cor 4dc82f
+#mem 
+#fan 
+#pwr 
+#miner 
+#wallet 
+#rigpool1 
+#rigpool2 
+#vlt
 
 #(rig 000-02) 6 rx 480s, unstable even with default settings of cor 1300, mem 2000
 #cor f648f5
@@ -164,7 +172,7 @@ pwr 86.06.39.00.a8 140
 #(rig 000-08) 6 gtx 1060s
 #cor f4508c
 
-#(rig 000-09) 6 gtx 1070s
+#(rig 000-09) 6 gtx 1070s, unstable at current clock (cor 1800, mem 4150), try different
 #cor 9319dc
 
 #(rig 000-10) 6 rx 480s
@@ -279,8 +287,9 @@ fan f450aa 100 100 100 100 100 100
 #pwr f45bb8
 fan f45bb8 100 100 100 100 100 100
 
-#(rig 002-07)
+#(rig 002-07) 6 rx 480s, up fans since no AC
 #cor f450b7
+fan f450b7 100 100 100 100 100 100
 
 #(rig 002-08)
 #cor f4508a
@@ -311,16 +320,11 @@ pwr 4899a0 170 170 170 170 170 170
 #(rig 003-04)
 #cor 48924a
 
-#(rig 003-05)
+#(rig 003-05) 6 gtx 1070s, unstable at
 #cor 48990f
 #mem 
 #fan 
 #pwr 
-#miner 
-#wallet 
-#rigpool1 
-#rigpool2 
-#vlt
 
 #(rig 003-06)
 #cor 489668
