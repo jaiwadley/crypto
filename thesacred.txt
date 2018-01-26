@@ -271,8 +271,9 @@ fan 489674 100 100 100 100 100 100
 #cor f450a6
 fan f450a6 100 100 100 100 100 100
 
-#(rig 002-04)
+#(rig 002-04) 4 rx 480s, 2 rx 470s, unstable at def, up fans since no AC
 #cor f45bd4
+fan f45bd4 100 100 100 100 100 100
 
 #(rig 002-05) 1 rx 470, 6 rx 480s, replaced 1 480 with 470, high temp, 
 #up fans since no AC, cor def, mem def
