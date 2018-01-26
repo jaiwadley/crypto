@@ -136,29 +136,29 @@ pwr 86.06.39.00.a8 140
 
 #|||||individual rig settings|||||
 
-#(rig 000-01) 5 rx 480s
+#(rig 000-01) 6 rx 480s, stable with default settings so far of cor 1300, mem 2000, replaced oscililating card
 #cor 4dc82f
 
-#(rig 000-02) 6 rx 480s
+#(rig 000-02) 6 rx 480s, unstable even with default settings of cor 1300, mem 2000
 #cor f648f5
 
-#(rig 000-03) 6 rx 480s, two cards down constantly
-cor f648ec 1300 1300 1300 1300 1300 1300
-mem f648ec 2000 2000 2000 2000 2000 2000
-fan f648ec 90 90 90 90 90 90
-pwr f648ec 2 2 2 2 2 2 
+#(rig 000-03) 2 rx 470s, 4 rx 480s, replaced 2 'dead' 480s with 470s, so far stable witih default,
+#cor f648ec 1300 1300 1300 1300 1300 1300
+#mem f648ec 2000 2000 2000 2000 2000 2000
+#fan f648ec 90 90 90 90 90 90
+#pwr f648ec 2 2 2 2 2 2 
 #vlt f648ec
 
-#(rig 000-04) 6 rx 480s
+#(rig 000-04) 6 rx 480s, one card needs to be replaced, cor def (1300), mem def+200 (2200)
 #cor f648f3
 
-#(rig 000-05) 6 rx 480s
+#(rig 000-05) 6 rx 480s, unstable even with default settings
 #cor f450a9
 
-#(rig 000-06) 6 rx 480s
+#(rig 000-06) 6 rx 480s, unstable with cor def-100 (1200), mem def+100 (2100), but cor is stable
 #cor f64770
 
-#(rig 000-07) 6 rx 480s
+#(rig 000-07) 6 rx 480s, unstable with default settings of cor 1300, mem 2000
 #cor f648fb
 
 #(rig 000-08) 6 gtx 1060s
@@ -227,7 +227,7 @@ pwr 489baf 170 170 170 170 170 170
 #(rig 001-10) 6 gtx 1070s
 #cor 489f11
 
-#(rig 001-11) 6 rx 480s
+#(rig 001-11) 6 rx 480s, unstable at default settings of cor 1300, mem 2000
 #cor 489909
 
 #(rig 001-12) 1 gtx 1060, 5 gtx 1070s, cards drop hash often
@@ -254,19 +254,22 @@ fan 489a0b 90 90 90 90 90 90
 #(rig 002-01)
 #cor f450a7
 
-#(rig 002-02) low hash rate, change pwrtune? 5 rx 480s
+#(rig 002-02) 5 rx 480s, 1 rx 470, replaced 1 480 with 470, low hash rate still, high temp, up fans since no AC
 #pwr 489674 
+fan 489674 100 100 100 100 100 100
 
-#(rig 002-03)
+#(rig 002-03) 6 rx 480s, low hash rate, high temp, up fans since no AC
 #cor f450a6
+fan f450a6 100 100 100 100 100 100
 
 #(rig 002-04)
 #cor f45bd4
 
-#(rig 002-05) 6 rx 480s, one card crashed
+#(rig 002-05) 1 rx 470, 6 rx 480s, replaced 1 480 with 470, high temp, up fans since no AC
 #cor f450aa 
 #mem f450aa 
 #pwr f450aa 
+fan f450aa 100 100 100 100 100 100
 
 #(rig 002-06) 6 rx 480s, one card crashed, one card oscillates
 #cor f45bb8
