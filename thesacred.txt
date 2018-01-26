@@ -266,13 +266,14 @@ fan f450a6 100 100 100 100 100 100
 #(rig 002-04)
 #cor f45bd4
 
-#(rig 002-05) 1 rx 470, 6 rx 480s, replaced 1 480 with 470, high temp, up fans since no AC
+#(rig 002-05) 1 rx 470, 6 rx 480s, replaced 1 480 with 470, high temp, 
+#up fans since no AC, cor def, mem def
 #cor f450aa 
 #mem f450aa 
 #pwr f450aa 
 fan f450aa 100 100 100 100 100 100
 
-#(rig 002-06) 1 rx 470, 5 rx 480s, replaced 1 480 with 470 bc one card crashed, one card oscillates, temp hi, up fans since no AC
+#(rig 002-06) 6 rx 480s, one card oscillates, temp hi, up fans since no AC, cor def (1270) mem def (2000)
 #cor f45bb8
 #mem f45bb8
 #pwr f45bb8
