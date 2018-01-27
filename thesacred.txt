@@ -12,7 +12,6 @@ stratumproxy enabled
 
 #(ETH wallet)
 #proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
-#proxywallet t1N74buU4u34nahQZsVABZAj4SLBK3ZP21z
 #proxywallet 0x966C32aD0190B74dc561db93EcAf3f439B7E1A77
 
 #(ETH pools)
@@ -20,8 +19,6 @@ stratumproxy enabled
 #proxypool2 us2.ethermine.org:4444
 #proxypool1 eth-us-east1.nanopool.org:9999
 #proxypool2 eth-us-west1.nanopool.org:9999
-#proxypool1 zec-us-east1.nanopool.org:6666
-#proxypool2 zec-us-west1.nanopool.org:6666
 
 #(ETC wallet)
 proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
@@ -30,24 +27,34 @@ proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
 proxypool1 us1-etc.ethermine.org:4444
 proxypool2 us1-etc.ethermine.org:14444
 
+#(??? wallet)
+#proxywallet t1N74buU4u34nahQZsVABZAj4SLBK3ZP21z
+
+#(??? pools)
+#proxypool1 zec-us-east1.nanopool.org:6666
+#proxypool2 zec-us-west1.nanopool.org:6666
+
 #|||||dual mining parameters|||||
 #dualminer enabled
 
 #(LBC dual mine)
 #dualminer-coin lbc
-#dualminer-wallet insert jason's lbc address here
-#dualminer-pool insert lbc pool here
+#dualminer-wallet (insert jason's lbc address here)
+#dualminer-pool (insert lbc pool here)
 
 #|||||global overclock and temp settings|||||
-#globalcore 1750
-#globalmem 4300
-#globalfan 100
-#globalpowertune 150
+#globalcore 
+#globalmem 
+#globalfan 
+#globalpowertune 
 maxgputemp 95
 
 #|||||per gpu settings|||||
+#note: rx480 cor def stable, mem def unstable
+#rx470 cor def stable, mem def unstable
+#gt1070 cor def-250 unstable, mem 
 
-#(nvidia gtx 1070 8 gb), cor def 2000, mem def 3800
+#(nvidia gtx1070-8gb), cor def 2000, mem def 3800
 cor 86.04.50.00.72 1900
 mem 86.04.50.00.72 4200
 fan 86.04.50.00.72 90
@@ -58,13 +65,13 @@ mem 86.04.3b.00.70 4200
 fan 86.04.3b.00.70 90
 pwr 86.04.3b.00.70 170
 
-#(nvidia gtx 1060 6 gb), cor def 1950, mem def 3800
+#(nvidia gtx1060-6gb), cor def 1950, mem def 3800
 cor 86.06.39.00.a8 1950
 mem 86.06.39.00.a8 4150
 fan 86.06.39.00.a8 90
 pwr 86.06.39.00.a8 140
 
-#(samsung rx 480 8 gb)
+#(samsung rx480-8gb)
 #cor 115-d000pil-100 
 #mem 115-d000pil-100 
 #fan 115-d000pil-100 
@@ -107,7 +114,7 @@ pwr 86.06.39.00.a8 140
 #pwr 113-xxx-xxx 
 #vlt 113-xxx-xxx 
 
-#(samsung rx 470 4 gb)
+#(samsung rx470-4gb)
 #cor 113-we353fu-m73
 #mem 113-we353fu-m73
 #fan 113-we353fu-m73
@@ -120,14 +127,14 @@ pwr 86.06.39.00.a8 140
 #pwr 113-we353fu-m70
 #vlt 113-we353fu-m70
 
-#(samsung rx 580 8 gb)
+#(samsung rx580-8gb)
 #cor xxx-xxx-xxxx
 #mem xxx-xxx-xxxx
 #fan xxx-xxx-xxxx
 #pwr xxx-xxx-xxxx
 #vlt xxx-xxx-xxxx
 
-#(nvidia device 6 gb)
+#(nvidia device-6gb)
 #cor 86.06.56.00.04 
 #mem 86.06.56.00.04
 #fan 86.06.56.00.04
@@ -135,8 +142,10 @@ pwr 86.06.39.00.a8 140
 #vlt 86.06.56.00.04
 
 #|||||individual rig settings|||||
+#anything tag 'replaced' was replaced with rx470
+#use notes provided below to set clocks appropriately, shouldn't be unstable
 
-#(rig 000-01) 6 rx 480s, stable with default settings so far of cor 1300, mem 2000, replaced oscililating card
+#(rig 000-01) 1 rx470 & 5 rx480s (replaced 1 oscillator): cor def (~1300) stable , mem def (1750 & 2000) unstable 
 #cor 4dc82f
 #mem 
 #fan 
@@ -147,49 +156,50 @@ pwr 86.06.39.00.a8 140
 #rigpool2 
 #vlt
 
-#(rig 000-02) 6 rx 480s, unstable even with default settings of cor 1300, mem 2000
+#(rig 000-02) 6 rx480s: cor def (~1300) stable , mem def (2000) unstable 
 #cor f648f5
 
-#(rig 000-03) 2 rx 470s, 4 rx 480s, replaced 2 'dead' 480s with 470s, so far stable witih default,
-#cor f648ec 1300 1300 1300 1300 1300 1300
-#mem f648ec 2000 2000 2000 2000 2000 2000
-#fan f648ec 90 90 90 90 90 90
-#pwr f648ec 2 2 2 2 2 2 
+#(rig 000-03) 2 rx470s & 4 rx480s (replaced 2 crashers): cor def (~1300) stable , mem def (1750 & 2000) unstable 
+#cor f648ec 
+#mem f648ec 
+#fan f648ec 
+#pwr f648ec  
 #vlt f648ec
 
-#(rig 000-04) 6 rx 480s, one card needs to be replaced, cor def (1300), mem def+200 (2200)
+#(rig 000-04) 1 rx470 & 5 rx480s: cor(~1300) & mem(1750,2000) stable
 #cor f648f3
 
-#(rig 000-05) 6 rx 480s, unstable even with default settings
+#(rig 000-05) 6 rx480s: cor(~1300) stable, mem(2000) unstable
 #cor f450a9
 
-#(rig 000-06) 6 rx 480s, unstable with cor def-100 (1200), mem def+100 (2100), but cor is stable
+#(rig 000-06) 6 rx480s: cor(~1300) stable, mem+100(2100) unstable
 #cor f64770
 
-#(rig 000-07) 6 rx 480s, unstable with default settings of cor 1300, mem 2000
+#(rig 000-07) 6 rx480s: cor(~1300) stable, mem(2000) extremely unstable
 #cor f648fb
 
-#(rig 000-08) 6 gtx 1060s
+#(rig 000-08) 6 gtx1060s: cor-200(1750) unstable, mem+350(4150) relatively stable, but hash stable
 #cor f4508c
 
-#(rig 000-09) 6 gtx 1070s, unstable at current clock (cor 1800, mem 4150), try different
+#(rig 000-09) 6 gtx1070s: cor-200(1800) & mem+350(4150) relatively stable
 #cor 9319dc
 
-#(rig 000-10) 6 rx 480s
+#(rig 000-10) 6 rx480s: cor(1290) & mem+200(2200) unstable, pwr=6 may be relevant
 #cor f450c0
 
-#(rig 000-11) 6 gtx 1070s
+#(rig 000-11) 6 gtx1070s: cor-250(1750) & mem+400(4200) stable
 #cor 0dc762
 
-#(rig 000-12) 6 gtx 1070s, one card crashed
-cor 00372d 1800 1800 1800 1800 1800 1800
-mem 00372d 4200 4200 4200 4200 4200 4000
-pwr 00372d 170 170 170 170 170 170
+#(rig 000-12) 6 gtx1070s: cor-250(1750) & mem+400(4200) unstable
+#cor 00372d 
+#mem 00372d 
+#pwr 00372d 
 
-#(rig 000-013) 6 gtx 1070s, has one card not overclocking
+#(rig 000-013) 6 gtx1070s: cor-200(1800) & mem+200(4000) unstable
+cor 003873 1900 1900 1900 1900 1900 1900
 mem 003873 4000 4000 4000 4000 4000 4000
 
-#(rig 000-14) 6 gtx 1070s, crashed at least once at mem 4310, tone it down
+#(rig 000-14) 6 gtx1070s: cor-250(1750) & mem+510(4310) relatively unstable, but hash stable
 #cor 24c98d
 
 #(rig 000-15) 6 gtx 1070s
