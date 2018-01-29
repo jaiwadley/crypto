@@ -45,7 +45,7 @@ proxypool2 us1-etc.ethermine.org:14444
 #|||||global overclock and temp settings|||||
 #globalcore 
 #globalmem 
-#globalfan 
+globalfan 90
 #globalpowertune 
 maxgputemp 95
 
@@ -156,18 +156,19 @@ pwr 86.06.39.00.a8 140
 #rigpool2 
 #vlt
 
-#(rig 000-02) 6 rx480s: cor def (~1300) stable , mem def (2000) unstable 
+#(rig 000-02) 6 rx480s: cor(~1300) stable, mem(2000) unstable 
 #cor f648f5
 
-#(rig 000-03) 2 rx470s & 4 rx480s (replaced 2 crashers): cor def (~1300) stable , mem def (1750 & 2000) unstable 
+#(rig 000-03) 2 rx470s & 4 rx480s (replaced 2 crashers): cor(~1300) stable, mem(1750 & 2000) unstable 
 #cor f648ec 
 #mem f648ec 
 #fan f648ec 
 #pwr f648ec  
 #vlt f648ec
 
-#(rig 000-04) 1 rx470 & 5 rx480s: cor(~1300) & mem(1750,2000) stable
+#(rig 000-04) 1 rx470 & 5 rx480s: cor(~1300) stable, mem(1750,2000) unstable. Had incorrect share (must lower mem)
 #cor f648f3
+mem f648f3 1750 1950 1950 1950 1950 1950
 
 #(rig 000-05) 6 rx480s: cor(~1300) stable, mem(2000) unstable
 #cor f450a9
@@ -274,8 +275,8 @@ fan 489a0b 90 90 90 90 90 90
 fan f450a7 100 100 100 100 100 100
 
 #(rig 002-02) 5 rx 480s, 1 rx 470, replaced 1 480 with 470, low hash rate still, high temp, up fans since no AC
-#pwr 489674 
-fan 489674 100 100 100 100 100 100
+#pwr 681cbd
+fan 681cbd 100 100 100 100 100 100
 
 #(rig 002-03) 6 rx 480s, low hash rate, high temp, up fans since no AC
 #cor f450a6
@@ -395,7 +396,7 @@ loc 489909 001-11
 loc 489a01 001-12
 loc 930513 001-13
 loc 48965c 001-14
-loc 489a0b 001-15
+loc 681cbd 001-15
 loc 489306 001-16
 
 loc f450a7 002-01
