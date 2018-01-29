@@ -145,7 +145,7 @@ pwr 86.06.39.00.a8 140
 #anything tag 'replaced' was replaced with rx470
 #use notes provided below to set clocks appropriately, shouldn't be unstable
 
-#(rig 000-01) 1 rx470 & 5 rx480s (replaced 1 oscillator): cor def (~1300) stable , mem def (1750 & 2000) unstable 
+#(rig 000-01) 1 rx470 & 5 rx480s (replaced 1 oscillator): cor(~1300) stable , mem(1750/2000) unstable 
 #cor 4dc82f
 #mem 
 #fan 
@@ -160,11 +160,11 @@ pwr 86.06.39.00.a8 140
 #cor f648f5
 mem f648f5 1950 1950 1950 1950 1950 1950
 
-#(rig 000-03) 2 rx470s & 4 rx480s (replaced 2 crashers): cor(~1300) stable, mem(1750 & 2000) unstable 
+#(rig 000-03) 2 rx470s & 4 rx480s (replaced 2 crashers): cor(~1300) stable, mem(1750/2000) unstable 
 #cor f648ec 
 mem f648ec 1950 1950 1700 1950 1700 1950
 
-#(rig 000-04) 1 rx470 & 5 rx480s: cor(~1300) stable, mem(1750,2000) unstable. Had incorrect share (must lower mem)
+#(rig 000-04) 1 rx470 & 5 rx480s: cor(~1300) stable, mem(1750/2000) unstable. Had incorrect share (must lower mem)
 #cor f648f3
 mem f648f3 1750 1950 1950 1950 1950 1950
 
@@ -177,13 +177,13 @@ mem f648f3 1750 1950 1950 1950 1950 1950
 #(rig 000-07) 6 rx480s: cor(~1300) stable, mem(2000) extremely unstable
 #cor f648fb
 
-#(rig 000-08) 6 gtx1060s: cor-200(1750) unstable, mem+350(4150) relatively stable, but hash stable
+#(rig 000-08) 6 gtx1060s: cor-200(1750) unstable, mem+350(4150) relatively stable until recently
 #cor f4508c
 
-#(rig 000-09) 6 gtx1070s: cor-200(1800) & mem+350(4150) relatively stable
+#(rig 000-09) 6 gtx1070s: cor-200(1800) & mem+350(4150) relatively stable until recently
 #cor 9319dc
 
-#(rig 000-10) 6 rx480s: cor(1290) & mem+200(2200) unstable, pwr=6 may be relevant
+#(rig 000-10) 6 rx480s: cor(1290) & mem+200(2200) unstable, pwr=6 may be relevant, more stable recently
 #cor f450c0
 
 #(rig 000-11) 6 gtx1070s: cor-250(1750) & mem+400(4200) stable
@@ -194,88 +194,89 @@ mem f648f3 1750 1950 1950 1950 1950 1950
 #mem 00372d 
 #pwr 00372d 
 
-#(rig 000-013) 6 gtx1070s: cor-200(1800) & mem+200(4000) unstable
+#(rig 000-13) 6 gtx1070s: cor-200(1800) & mem+200(4000) unstable
 cor 003873 1900 1900 1900 1900 1900 1900
 mem 003873 4000 4000 4000 4000 4000 4000
 
 #(rig 000-14) 6 gtx1070s: cor-250(1750) & mem+510(4310) relatively unstable, but hash stable
 #cor 24c98d
 
-#(rig 000-15) 6 gtx 1070s
+#(rig 000-15) 6 gtx1070s: cor-200(1800) & mem+400(4200) relatively unstable, 
 #cor f45baf
 
-#(rig 000-16) 6 gtx 1060s
+#(rig 000-16) 6 gtx1060s: cor-100(1850) & mem+350(4150) relatively stable until recently
 #cor 4d1d05
 
-#(rig 001-01) 6 gtx 1070s
+#(rig 001-01) 6 gtx1070s: cor-200(1800) & mem+450(4250) unstable until recently
 #cor 48a54a
 
-#(rig 001-02) 4 gtx 1060s, 2 gtx 1070s
+#(rig 001-02) 4 gtx1060s, 2 gtx1070s: cor-150/200(1800) & mem+300(4100) unstable 
 cor 27d5a6 1800 1800 1800 1800 1800 1800
 mem 27d5a6 4100 4100 4100 4100 4100 4100
 pwr 27d5a6 140 140 140 140 170 170
 
-#(rig 001-03) 6 gtx 1070s
+#(rig 001-03) 6 gtx1070s: cor-200(1800) & mem+400(4200) relatively unstable until recently
 #cor 48966c
 
-#(rig 001-04) 6 gtx 1070s, wasn't unstable until i just looked at it
+#(rig 001-04) 6 gtx1070s: cor-200(1800) & mem+510(4310) unstable
 #cor 489664
 
-#(rig 001-05) 6 gtx 1070s, cards drop hash very often
+#(rig 001-05) 6 gtx1070s, cor-250(1750) & mem+200(4000) unstable, one card oscillates greatly
 cor 489995 1750 1750 1750 1750 1750 1750
 mem 489995 4000 4000 4000 4000 4000 4000
 
-#(rig 001-06) 6 gtx 1070s, cards not overclocking
+#(rig 001-06) 6 gtx1070s: cor-250(1750) & mem+200(4000) relatively unstable, cards don't OC well
 cor 930414 1750 1750 1750 1750 1750 1750
 mem 930414 4000 4000 4000 4000 4000 4000
 
-#(rig 001-07) 6 gtx 1070s, cards drop hash very often
+#(rig 001-07) 6 gtx1070s: cor-250(1750) & mem+200(4000) stable until recently
 cor 48994f 1750 1750 1750 1750 1750 1750
 mem 48994f 4000 4000 4000 4000 4000 4000
 
-#(rig 001-08) 6 gtx 1070s
-cor 489baf 1750 1750 1750 1750 1750 1750
-mem 489baf 4150 4150 4150 4150 4150 4150
-pwr 489baf 170 170 170 170 170 170
+#(rig 001-08) 6 gtx1070s: cor-250(1750) & mem+510(4310) stable
+#cor 489baf 
+#mem 489baf 
+#pwr 489baf 170 170 170 170 170 170
 
-#(rig 001-09) 6 gtx 1070s
+#(rig 001-09) 6 gtx1070s: cor-250(1750) & mem+510(4310) unstable
 #cor 489903
 
-#(rig 001-10) 6 gtx 1070s
+#(rig 001-10) 6 gtx1070s: cor-250(1750) & mem+510(4310) unstable until recently
 #cor 489f11
 
-#(rig 001-11) 6 rx 480s, unstable at default settings of cor 1300, mem 2000
+#(rig 001-11) 6 rx480s: cor(~1300) stable, mem(~2000) very unstable
 #cor 489909
 
-#(rig 001-12) 1 gtx 1060, 5 gtx 1070s, cards drop hash often
-cor 489a01 1750 1750 1750 1750 1750 1750
-mem 489a01 4000 4000 4000 4000 4000 4000
+#(rig 001-12) 1 gtx1060 & 5 gtx1070s: cor-250(1750) & mem+450(4250) unstable 
+#cor 489a01 1750 1750 1750 1750 1750 1750
+#mem 489a01 4000 4000 4000 4000 4000 4000
 
-#(rig 001-13) 6 gtx 1070s, drop hash rate often, one card crashed
+#(rig 001-13) 6 gtx1070s:cor-200(1800) & mem+200(4000) relatively stable
 cor 930513 1750 1750 1750 1750 1750 1750
 mem 930513 4000 4000 4000 4000 4000 4000
 
-#(rig 001-14) 6 gtx 1070s, running well 
+#(rig 001-14) 6 gtx1070s: cor-250(1750) & mem+450(4250) stable, but hash rate unstable
 #cor 48965c
 #mem 48965c 4250 4250 4250 4250 4250 4250
 
-#(rig 001-15) 1 rx470, 5 rx480s:, 3 cards crash often. replaced 480 with 470, 470 now crashed.
-#replaced motherboard, 3 cards still crash
+#(rig 001-15) 1 rx470 & 5 rx480s: replaced 1 480, replaced motherboard, still have 3 cards crashing (slots 1-3)
 #cor 681cbd
-mem 681cbd 1950 1950 1700 2000 2000 2000
+#mem 681cbd 1950 1950 1700 2000 2000 2000
 
-#(rig 001-16) needs better powertune, 6 rx 470s
+#(rig 001-16) 6 rx470s: cor-220(1020) & mem(1750) unstable, 5 cards oscillate frequently. suggest powertune change
 #pwr 489306 3 3 3 3 3 3
+fan 489306 90 90 90 90 90 90
 
-#(rig 002-01) 1 rx 470, 5 rx 480s, replaced 1 480 with 470, still unstable hash, temp high, up fans since no AC
+#(rig 002-01) 1 rx470 & 5 rx480s: replaced 1 480, cor(1300) stable, mem(1750/2000) very unstable
 #cor f450a7
 fan f450a7 100 100 100 100 100 100
 
-#(rig 002-02) 5 rx 480s, 1 rx 470, replaced 1 480 with 470, low hash rate still, high temp, up fans since no AC
-#pwr 681cbd
-fan 681cbd 100 100 100 100 100 100
+#(rig 002-02) 1 rx470 & 5 rx480s: replaced 1 480, cor(~1300) stable until recently, mem+250/0(2000/2000) very unstable, hash rate of
+#~16, needs to be looked at
+#pwr 489674
+fan 489674 100 100 100 100 100 100
 
-#(rig 002-03) 6 rx 480s, low hash rate, high temp, up fans since no AC
+#(rig 002-03) 6 rx480s: low hash rate, high temp, up fans since no AC
 #cor f450a6
 fan f450a6 100 100 100 100 100 100
 
