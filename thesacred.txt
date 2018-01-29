@@ -158,13 +158,11 @@ pwr 86.06.39.00.a8 140
 
 #(rig 000-02) 6 rx480s: cor(~1300) stable, mem(2000) unstable 
 #cor f648f5
+mem f648f5 1950 1950 1950 1950 1950 1950
 
 #(rig 000-03) 2 rx470s & 4 rx480s (replaced 2 crashers): cor(~1300) stable, mem(1750 & 2000) unstable 
 #cor f648ec 
-#mem f648ec 
-#fan f648ec 
-#pwr f648ec  
-#vlt f648ec
+mem f648ec 1950 1950 1700 1950 1700 1950
 
 #(rig 000-04) 1 rx470 & 5 rx480s: cor(~1300) stable, mem(1750,2000) unstable. Had incorrect share (must lower mem)
 #cor f648f3
@@ -261,11 +259,10 @@ mem 930513 4000 4000 4000 4000 4000 4000
 #cor 48965c
 #mem 48965c 4250 4250 4250 4250 4250 4250
 
-#(rig 001-15) 5 rx 480s, 3 cards crash often
-cor 489a0b 1300 1300 1300 1300 1300 1300 
-mem 489a0b 2000 2000 2000 2000 2000 2000
-fan 489a0b 90 90 90 90 90 90
-#pwr 489a0b
+#(rig 001-15) 1 rx470, 5 rx480s:, 3 cards crash often. replaced 480 with 470, 470 now crashed.
+#replaced motherboard, 3 cards still crash
+#cor 681cbd
+mem 681cbd 1950 1950 1700 2000 2000 2000
 
 #(rig 001-16) needs better powertune, 6 rx 470s
 #pwr 489306 3 3 3 3 3 3
