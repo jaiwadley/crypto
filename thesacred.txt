@@ -276,22 +276,23 @@ fan f450a7 100 100 100 100 100 100
 #pwr 489674
 fan 489674 100 100 100 100 100 100
 
-#(rig 002-03) 6 rx480s: low hash rate, high temp, up fans since no AC
+#(rig 002-03) 6 rx480s: cor(~1300) stable, mem(2000) unstable, hash rate of ~16,
+#needs looking at
 #cor f450a6
 fan f450a6 100 100 100 100 100 100
 
-#(rig 002-04) 4 rx 480s, 2 rx 470s, unstable at def, up fans since no AC, changed riser b/c not detecting 6
+#(rig 002-04) 2 rx470s & 4 rx480s: cor(~1300) stable, mem(1750/2000) unstable
 #cor f45bd4
 fan f45bd4 100 100 100 100 100 100
 
-#(rig 002-05) 1 rx 470, 6 rx 480s, replaced 1 480 with 470, high temp, 
-#up fans since no AC, cor def, mem def
+#(rig 002-05) 1 rx470 & 6 rx 480s: replaced 1 480, cor (~1300) stable, mem(1750/2000) unstable,
+#up fans since no AC
 #cor f450aa 
 #mem f450aa 
 #pwr f450aa 
 fan f450aa 100 100 100 100 100 100
 
-#(rig 002-06) 1 rx 470, 5 rx 480s, one card oscillates, temp hi, up fans since no AC, cor def (1270) mem def (2000)
+#(rig 002-06) 1 rx470 & 5 rx480s: cor(~1270) & mem(1750/2000) unstable, 2 cards oscillate & 1 of these cards has high temp
 #cor f45bb8
 #mem f45bb8
 #pwr f45bb8
