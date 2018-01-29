@@ -340,7 +340,7 @@ pwr 4899a0 170 170 170 170 170 170
 
 #(rig 003-07) 2 rx 470s, 3 rx 480s, unstable at cor def 1290 mem def 2000, should be 6 cards, one not detected
 #cor 08aada
-#mem 08aada 
+mem 08aada 
 
 #(rig 003-08) 6 rx 480s, unstable at cor def (1290) mem def (2000)
 #cor f6479b
