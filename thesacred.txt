@@ -74,7 +74,7 @@ mem 86.04.3b.00.70 4200
 fan 86.04.3b.00.70 90
 pwr 86.04.3b.00.70 170
 
-#(samsung rx470-4gb) cordef=~1240 (may vary between models), memdef=1750
+#(samsung rx470-4gb) cordef=~1240 (may vary between models), memdef=1750 (only one card was 2000)
 #cor 113-we353fu-m73
 #mem 113-we353fu-m73
 #fan 113-we353fu-m73
@@ -379,9 +379,9 @@ mem b52f61 1750 1750 1750 1750 1750 1750 1750 1750
 cor 4d1e4f 1150 1150 1150 1150 750 1150
 mem 4d1e4f 1750 1750 1750 1750 1750 1750
 
-#(rig 100-05) 6 rx470s: cor(1240) & mem+250(2000) extremely unstable, cards down constantly
+#(rig 100-05) 6 rx470s: cor(1240/1130) & mem+250/+0(2000/2000) extremely unstable, cards down constantly
 cor 4cce59 1150 1150 1150 1150 1150 1150
-mem 4cce59 1750 1750 1750 1750 1750 1750
+mem 4cce59 1750 1750 1750 1750 1750 2000
 
 #(rig 100-06)
 #cor 4d1a18
