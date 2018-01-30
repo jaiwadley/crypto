@@ -364,7 +364,7 @@ mem 08aada
 #(rig 003-11)
 #cor 27c703
 
-#(rig 100-01) 8 rx470s: cor(1240) & mem(2000) extremely unstable, one card down constantly
+#(rig 100-01) 8 rx470s: cor(1240) & mem+250(2000) extremely unstable, one card down constantly
 cor b52f61 1150 1150 1150 1150 1150 1150 1150 1150
 mem b52f61 1950 1950 1950 1950 1950 1950 1950 1950
 
@@ -374,8 +374,9 @@ mem b52f61 1950 1950 1950 1950 1950 1950 1950 1950
 #(rig 100-03)
 #cor 4d1a10
 
-#(rig 100-04) unstable, cards drop to 0 constantly
-#cor 4d1e4f
+#(rig 100-04) 6 rx470s: cor(1240) & mem+250(2000) extremely unstable, multiple cards down, one card oscillates, high incorrect shares
+cor 4d1e4f 1150 1150 1150 1150 1150 1150
+mem 4d1e4f 1750 1750 1750 1750 1750 1750
 
 #(rig 100-05) unstable
 #cor 4cce59
