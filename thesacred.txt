@@ -182,7 +182,8 @@ mem f648f3 1750 1950 1950 1950 1950 1950
 #cor f64770
 
 #(rig 000-07) 6 rx480s: cor(~1300) stable, mem(2000) extremely unstable
-#cor f648fb
+cor f648fb 1150 1150 1150 1150 1150 1150
+mem f648fb 1950 1950 1950 1950 1950 1950
 
 #(rig 000-08) 6 gtx1060s: cor-200(1750) unstable, mem+350(4150) relatively stable until recently
 #cor f4508c
