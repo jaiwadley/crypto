@@ -1,5 +1,5 @@
 #UPDATES (started this section on 2/1/2018)
-#2/1/2018: updated all american rig names. named three chinese rigs. routine update of clock stability/settings.
+#2/1/2018: updated all rig names to correct positions. routine update of clock stability/settings.
 
 #|||||REBOOT|||||
 autoreboot true
