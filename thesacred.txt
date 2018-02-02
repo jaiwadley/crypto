@@ -87,6 +87,12 @@ pwr 86.04.3b.00.70 170
 #pwr 113-we353fu-m70
 #vlt 113-we353fu-m70
 
+#cor 113-PANDAAD009-SAM001
+#mem 113-PANDAAD009-SAM001
+#fan 113-PANDAAD009-SAM001
+#pwr 113-PANDAAD009-SAM001
+#vlt 113-PANDAAD009-SAM001
+
 #(samsung rx480-8gb) cordef=~1270 (varies between models), memdef=2000
 #cor 115-d000pil-100 
 #mem 115-d000pil-100 
@@ -130,14 +136,21 @@ pwr 86.04.3b.00.70 170
 #pwr 113-xxx-xxx 
 #vlt 113-xxx-xxx 
 
-#(samsung rx580-8gb) cordef=~1370 (may vary between individual cards), memdef=~2000 (varies between individual cards)
+#(hynix rx570-4gb): cordef=1130, memdef=2000. newest chinese rigs
+#cor 113-SNDC940HY-X01
+#mem 113-SNDC940HY-X01
+#fan 113-SNDC940HY-X01
+#pwr 113-SNDC940HY-X01
+#vlt 113-SNDC940HY-X01
+
+#(samsung rx580-8gb): cordef=~1370 (may vary between individual cards), memdef=~2000 (varies between individual cards)
 #cor xxx-xxx-xxxx
 #mem xxx-xxx-xxxx
 #fan xxx-xxx-xxxx
 #pwr xxx-xxx-xxxx
 #vlt xxx-xxx-xxxx
 
-#(nvidia device-6gb) cordef=1910, memdef=4000
+#(nvidia device-6gb): cordef=1910, memdef=4000. older chinese rig
 #cor 86.06.56.00.04 
 #mem 86.06.56.00.04
 #fan 86.06.56.00.04
@@ -149,8 +162,8 @@ pwr 86.04.3b.00.70 170
 #use notes provided below to set clocks appropriately, goal is stability with high hash rate
 #anything tagged 'replaced' was replaced with a rx470
 #if see 'relative' used to describe instability, that means decreased frequency of instability compared to regular 'stable/unstable'
-#if see 'extreme' used to describe instability, that means instability happens almost constantly
-#if see 'stable until recently', that means 'stable before but unstable now'
+#if see 'extreme' or 'very' used to describe instability, that means instability happens almost more frequently than normal
+#if see 'stable until recently', that means 'stable before but unstable now' or vice versa
 
 #(rig 000-01) 1 rx470 & 5 rx480s (replaced 1 oscillating card): cor(~1300) stable , mem(1750/2000) unstable 
 #cor 4dc82f
@@ -161,7 +174,7 @@ pwr 86.04.3b.00.70 170
 #wallet 
 #rigpool1 
 #rigpool2 
-#vlt
+#vlt 
 
 #(rig 000-02) 6 rx480s: cor(~1300) stable, mem(2000) unstable 
 #cor f648f5
@@ -279,13 +292,12 @@ fan 489306 90 90 90 90 90 90
 #cor f450a7
 fan f450a7 100 100 100 100 100 100
 
-#(rig 002-02) 1 rx470 & 5 rx480s: replaced 1 480, cor(~1300) stable until recently, mem+250/0(2000/2000) very unstable, hash rate of
+#(rig 002-02) 1 rx470 & 5 rx480s: sacrificed to chinese gods. replaced 1 480, cor(~1300) stable until recently, mem+250/0(2000/2000) #very unstable, hash rate of
 #~16, needs to be looked at
 #pwr 489674
 fan 489674 100 100 100 100 100 100
 
-#(rig 002-03) 6 rx480s: cor(~1300) stable, mem(2000) unstable, hash rate of ~16,
-#needs looking at
+#(rig 002-03) 6 rx480s: sacrificed to chinese gods. cor(~1300) stable, mem(2000) unstable, hash rate of ~16, needs looking at
 #cor f450a6
 fan f450a6 100 100 100 100 100 100
 
@@ -312,13 +324,13 @@ fan f450b7 100 100 100 100 100 100
 #(rig 002-08)
 #cor f4508a
 
-#(rig 002-09) does not exist
-#cor 
+#(rig 002-09) chinese rig
+#cor 085e0b
 
-#(rig 002-10) does not exist
-#cor 
+#(rig 002-10) chinese rig
+#cor 085ac4
 
-#(rig 002-11)
+#(rig 002-11) sacrificed to the chinese gods
 #cor 27d308
 
 #(rig 002-12)
@@ -354,7 +366,7 @@ mem 08aada
 #(rig 003-08) 6 rx 480s, unstable at cor def (1290) mem def (2000)
 #cor f6479b
 
-#(rig 003-09) low hash rate, 5 rx 580s
+#(rig 003-09) rx580s: sacrificed to chinese gods. cor(1370) & mem(1750/2000) relatively stable
 #cor 4d1bd3 1300 1300 1300 1300 1300
 #mem 4d1bd3 2000 2000 2000 2000 2000
 #pwr 4d1bd3 3 3 3 3 3 
@@ -369,7 +381,7 @@ mem 08aada
 cor b52f61 1150 1150 1150 1150 1150 1150 1150 1150
 mem b52f61 1750 1750 1750 1750 1750 1750 1750 1750
 
-#(rig 100-02)
+#(rig 100-02) busted power supply
 #cor 4d1e41
 
 #(rig 100-03)
@@ -446,10 +458,11 @@ loc f450aa 002-05
 loc f45bb8 002-06
 loc f450b7 002-07
 loc f4508A 002-08
-#loc XXXXXX 002-09
-#loc XXXXXX 002-10
+loc 085e0b 002-09
+loc 085ac4 002-10
 loc 27d308 002-11
 loc 224f6d 002-12
+loc 08531d 002-13
 
 loc 489925 003-01
 loc 4899a0 003-02
@@ -472,5 +485,7 @@ loc 4d1a18 100-06
 loc 4dc8d9 100-07
 loc 4dc925 100-08
 loc 0830e8 100-09
+
+loc 793aeb closet
 
 
