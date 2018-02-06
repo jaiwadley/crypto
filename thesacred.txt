@@ -408,13 +408,27 @@ mem 4cce59 1750 1750 1750 1750 1750 2000
 #(rig 100-08)
 #cor 4dc925
 
-#(rig 100-09) chinese rig
+#(rig 100-09) chinese rig in trailer
 cor 0830e8 1600 1600 1600 1600 1600 1600 1600 1600
 mem 0830e8 4700 4700 4700 4700 4700 4700 4700 4700
 fan 0830e8 90 90 90 90 90 90 90 90 90 
 
 #(rig in the closet) chinese rig
 #cor 793aeb
+
+#(rig above 003-10) chinese rig with nine rx470s. cor(~1090) & mem(2000) stable
+cor 085cf8 1090 1090 1090 1090 1090 1090 1090 1090 1090
+mem 085cf8 2000 2000 2000 2000 2000 2000 2000 2000 2000
+
+#(rig 002-09) chinese rig 
+#cor 
+
+#(rig 002-10) chinese rig
+
+#(rig above 002-09) chinese rig with rx570s
+#cor 085b03
+
+#(rig above 002-10) chinese rig
 
 
 #|||||NICKNAMES|||||
