@@ -1,5 +1,5 @@
 #UPDATES (started this section on 2/1/2018)
-#2/6/2018: added mobo name for 6 chinese rigs
+#2/7/2018: added mobo name for 6 chinese rigs
 #2/6/2018: added 6 chinese rigs
 #2/1/2018: updated all rig names to correct positions. routine update of clock stability/settings.
 
@@ -231,7 +231,7 @@ mem 003873 4000 4000 4000 4000 4000 4000
 #cor f45baf
 
 #(rig 000-16) 6 gtx1060s: cor-100(1850) & mem+350(4150) relatively stable until recently
-#cor 4d1d05
+#cor 490476
 
 #(rig 001-01) 6 gtx1070s: cor-200(1800) & mem+450(4250) unstable until recently
 #cor 48a54a
@@ -470,7 +470,7 @@ loc 00372d 000-12
 loc 003873 000-13
 loc 24c98d 000-14
 loc f45baf 000-15
-loc 4d1d05 000-16
+loc 490476 000-16
 
 loc 48a54a 001-01
 loc 27d5a6 001-02
