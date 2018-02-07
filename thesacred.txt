@@ -418,22 +418,40 @@ fan 0830e8 90 90 90 90 90 90 90 90 90
 #(rig in the closet) chinese rig
 #cor 793aeb
 
-#(rig above 003-10) chinese rig with nine rx470s. cor(~1090) & mem(2000) stable
-cor 085cf8 1000 1000 1000 1000 1000 1000 1000 1000 1000
-mem 085cf8 1950 1950 1950 1950 1950 1950 1950 1950 1950 
+#(rig CH3-08) rig above 003-10. chinese rig with nine rx470s. cor(~1090) & mem(2000) stable. two bad cards i think
+#cor 085cf8 1090 1090 1090 1090 1090 1090 1090 1090 1090 
+#mem 085cf8 2000 2000 2000 2000 2000 2000 2000 2000 2000 
 
-#(rig 002-09) chinese rig 
-#cor 
-
-#(rig 002-10) chinese rig
-
-#(rig above 002-09) chinese rig with rx570s
+#(rig CH2-07) chinese rig above 002-09
 #cor 085b03
+#mem 085b03
+#fan 085b03
+#pwr 085b03
 
-#(rig above 002-10) chinese rig
+#(rig CH2-08) chinese rig above 002-10
 #cor 08531d
+#mem 08531d
+#fan 08531d
+#pwr 08531d
 
-#(rig below 002-11) chinese rig
+#(rig CH2-09) chinese rig 
+#cor 0853c1
+#mem 0853c1
+#fan 0853c1
+#pwr 0853c1
+
+#(rig CH2-10) chinese rig
+#cor 085ac4
+#mem 085ac4
+#fan 085ac4
+#pwr 085ac4
+
+#(rig CH2-13) chinese rig below 002-11
+#cor 085e0b
+#mem 085e0b
+#fan 085e0b
+#pwr 085e0b
+
 
 #|||||NICKNAMES|||||
 custompanel prti17918600
@@ -513,4 +531,5 @@ loc 085cf8 CH3-08
 loc 085b03 CH2-07
 loc 08531d CH2-08
 loc 0853c1 CH2-09
-loc 085e0b CH2-11
+loc 085ac4 CH2-10
+loc 085e0b CH2-13
