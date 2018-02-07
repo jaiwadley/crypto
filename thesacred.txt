@@ -329,12 +329,6 @@ fan f450b7 100 100 100 100 100 100
 #(rig 002-08)
 #cor f4508a
 
-#(rig 002-09) chinese rig
-#cor 085e0b
-
-#(rig 002-10) chinese rig
-#cor 085ac4
-
 #(rig 002-11) sacrificed to the chinese gods
 #cor 27d308
 
@@ -432,13 +426,13 @@ fan 0830e8 90 90 90 90 90 90 90 90 90
 #cor 08531d
 #mem 08531d
 #fan 08531d
-#pwr 08531d
+pwr 08531d 6 6 6 6 6 6 6 6 6
 
 #(rig CH2-09) chinese rig 
 #cor 0853c1
 #mem 0853c1
 #fan 0853c1
-#pwr 0853c1
+pwr 0853c1 6 6 6 6 6 6 6 6 6
 
 #(rig CH2-10) chinese rig
 #cor 085ac4
