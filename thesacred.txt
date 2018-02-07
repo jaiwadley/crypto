@@ -512,4 +512,5 @@ loc 793aeb closet
 loc 085cf8 CH3-08
 loc 085b03 CH2-07
 loc 08531d CH2-08
+loc 0853c1 CH2-09
 loc 085e0b CH2-11
