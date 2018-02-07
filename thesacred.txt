@@ -1,4 +1,6 @@
 #UPDATES (started this section on 2/1/2018)
+#2/6/2018: added mobo name for 6 chinese rigs
+#2/6/2018: added 6 chinese rigs
 #2/1/2018: updated all rig names to correct positions. routine update of clock stability/settings.
 
 #|||||REBOOT|||||
@@ -429,7 +431,9 @@ mem 085cf8 1950 1950 1950 1950 1950 1950 1950 1950 1950
 #cor 085b03
 
 #(rig above 002-10) chinese rig
+#cor 08531d
 
+#(rig below 002-11) chinese rig
 
 #|||||NICKNAMES|||||
 custompanel prti17918600
@@ -475,7 +479,7 @@ loc f450aa 002-05
 loc f45bb8 002-06
 loc f450b7 002-07
 loc f4508A 002-08
-loc 085e0b 002-09
+#loc xxxxxx 002-09
 loc 085ac4 002-10
 loc 27d308 002-11
 loc 224f6d 002-12
@@ -505,4 +509,7 @@ loc 0830e8 100-09
 
 loc 793aeb closet
 
-
+loc 085cf8 CH3-08
+loc 085b03 CH2-07
+loc 08531d CH2-08
+loc 085e0b CH2-11
