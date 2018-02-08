@@ -404,9 +404,9 @@ mem 4cce59 1750 1750 1750 1750 1750 2000
 #(rig 100-08)
 #cor 4dc925
 
-#(rig 100-09) chinese rig in trailer
+#(rig 100-09) 8 gp106s: chinese rig in trailer. cor-310(1600) & mem+700(4700) extremely unstable.
 cor 0830e8 1600 1600 1600 1600 1600 1600 1600 1600
-mem 0830e8 4700 4700 4700 4700 4700 4700 4700 4700
+mem 0830e8 4300 4300 4300 4300 4300 4300 4300 4300
 fan 0830e8 90 90 90 90 90 90 90 90 90 
 
 #(rig in the closet) chinese rig
