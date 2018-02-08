@@ -228,7 +228,8 @@ mem 003873 4000 4000 4000 4000 4000 4000
 #cor 24c98d
 
 #(rig 000-15) 6 gtx1070s: cor-200(1800) & mem+400(4200) unstable
-#cor f45baf
+cor f45baf 1800 1800 1800 1800 1800 1800
+mem f45baf 3800 3800 3800 3800 3800 3800
 
 #(rig 000-16) 6 gtx1060s: cor-100(1850) & mem+350(4150) relatively stable until recently
 #cor 490476
