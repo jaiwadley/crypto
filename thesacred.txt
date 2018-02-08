@@ -8,7 +8,7 @@ autoreboot true
 
 
 #|||||FLAGS|||||
-flags --cl-global-work 8192 --farm-recheck 200
+#flags --cl-global-work 8192 --farm-recheck 200
 
 
 #|||||MINING PROGRAM FOR ALL RIGS|||||
