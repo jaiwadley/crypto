@@ -296,6 +296,7 @@ fan 489306 90 90 90 90 90 90
 
 #(rig 002-01) 1 rx470 & 5 rx480s: replaced 1 480, cor(1300) stable, mem(1750/2000) very unstable
 #cor f450a7
+mem f450a7 1700 1950 1950 1950 1950 1950
 fan f450a7 100 100 100 100 100 100
 
 #(rig 002-02) 1 rx470 & 5 rx480s: sacrificed to chinese gods. replaced 1 480, cor(~1300) stable until recently, mem+250/0(2000/2000) #very unstable, hash rate of
