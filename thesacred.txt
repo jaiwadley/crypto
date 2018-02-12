@@ -447,7 +447,7 @@ pwr 0853c1 6 6 6 6 6 6 6 6 6
 #cor 085e0b
 #mem 085e0b
 #fan 085e0b
-#pwr 085e0b
+pwr 085e0b 5 5 5 5 5 5 5 5 5
 
 
 #|||||NICKNAMES|||||
