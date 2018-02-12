@@ -417,6 +417,7 @@ fan 0830e8 90 90 90 90 90 90 90 90 90
 #(rig CH3-08) rig above 003-10. chinese rig with nine rx470s. cor(~1090) & mem(2000) stable. two bad cards i think
 #cor 085cf8 1090 1090 1090 1090 1090 1090 1090 1090 1090 
 #mem 085cf8 2000 2000 2000 2000 2000 2000 2000 2000 2000 
+pwr 085cf8 5 5 5 5 5 5 5 5 5
 
 #(rig CH2-07) chinese rig above 002-09
 #cor 085b03
