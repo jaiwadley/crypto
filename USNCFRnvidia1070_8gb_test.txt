@@ -4,7 +4,8 @@ globalminer claymore
 #globalminer sgminer-gm
 maxgputemp 97
 stratumproxy enabled
-proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
+#proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
+proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
 #proxywallet t1N74buU4u34nahQZsVABZAj4SLBK3ZP21z
 #proxywallet 0x966C32aD0190B74dc561db93EcAf3f439B7E1A77
 proxypool1 us1.ethermine.org:4444
