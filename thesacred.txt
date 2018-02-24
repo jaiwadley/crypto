@@ -29,7 +29,9 @@ stratumproxy enabled
 #proxypool2 eth-us-west1.nanopool.org:9999
 
 #(ETC wallet)
-proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
+#proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
+proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
+
 
 #(ETC pools)
 proxypool1 us1-etc.ethermine.org:4444
