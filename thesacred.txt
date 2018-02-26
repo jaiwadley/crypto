@@ -53,10 +53,10 @@ maxgputemp 95
 #|||||PER GPU SETTINGS|||||
 
 #(nvidia gtx1060-6gb) cordef=1950, memdef=3800, pwrmax=140
-cor 86.06.39.00.a8 1800
-mem 86.06.39.00.a8 4200
-fan 86.06.39.00.a8 90
-pwr 86.06.39.00.a8 140
+#cor 86.06.39.00.a8 1800
+#mem 86.06.39.00.a8 4200
+#fan 86.06.39.00.a8 90
+#pwr 86.06.39.00.a8 140
 
 #(nvidia gtx1070-8gb) cordef=2000, memdef=3800, pwrmax=170
 #cor 86.04.50.00.72 1750
@@ -406,7 +406,7 @@ fan 0830e8 90 90 90 90 90 90 90 90 90
 #(rig CH3-08) rig above 003-10. chinese rig with nine rx470s. cor(~1090) & mem(2000) stable. two bad cards i think
 #cor 085cf8 1090 1090 1090 1090 1090 1090 1090 1090 1090 
 #mem 085cf8 2000 2000 2000 2000 2000 2000 2000 2000 2000 
-pwr 085cf8 5 5 5 5 5 5 5 5 5
+#pwr 085cf8 5 5 5 5 5 5 5 5 5
 
 #(rig CH2-07) chinese rig above 002-09
 #cor 085b03
@@ -418,13 +418,13 @@ pwr 085cf8 5 5 5 5 5 5 5 5 5
 #cor 08531d
 #mem 08531d
 #fan 08531d
-pwr 08531d 6 6 6 6 6 6 6 6 6
+#pwr 08531d 
 
 #(rig CH2-09) chinese rig 
 #cor 0853c1
 #mem 0853c1
 #fan 0853c1
-pwr 0853c1 6 6 6 6 6 6 6 6 6
+#pwr 0853c1 
 
 #(rig CH2-10) chinese rig
 #cor 085ac4
@@ -436,8 +436,7 @@ pwr 0853c1 6 6 6 6 6 6 6 6 6
 #cor 085e0b
 #mem 085e0b
 #fan 085e0b
-pwr 085e0b 5 5 5 5 5 5 5 5 5
-
+#pwr 085e0b 5 5 5 5 5 5 5 5 5
 
 #|||||NICKNAMES|||||
 custompanel prti17918600
