@@ -1,19 +1,11 @@
-#UPDATES (started this section on 2/1/2018)
-#2/7/2018: added mobo name for 6 chinese rigs
-#2/6/2018: added 6 chinese rigs
-#2/1/2018: updated all rig names to correct positions. routine update of clock stability/settings.
-
 #|||||REBOOT|||||
 autoreboot true
-
 
 #|||||FLAGS|||||
 #flags --cl-global-work 8192 --farm-recheck 200
 
-
 #|||||MINING PROGRAM FOR ALL RIGS|||||
 globalminer claymore
-
 
 #|||||WALLET AND POOLS|||||
 stratumproxy enabled
@@ -32,7 +24,6 @@ stratumproxy enabled
 #proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
 proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
 
-
 #(ETC pools)
 proxypool1 us1-etc.ethermine.org:4444
 proxypool2 us1-etc.ethermine.org:14444
@@ -44,7 +35,6 @@ proxypool2 us1-etc.ethermine.org:14444
 #proxypool1 zec-us-east1.nanopool.org:6666
 #proxypool2 zec-us-west1.nanopool.org:6666
 
-
 #|||||DUAL MINING PARAMETERS|||||
 #dualminer enabled
 
@@ -53,7 +43,6 @@ proxypool2 us1-etc.ethermine.org:14444
 #dualminer-wallet (insert jason's lbc address here)
 #dualminer-pool (insert lbc pool here)
 
-
 #|||||GLOBAL OVERCLOCK AND TEMP SETTINGS|||||
 #globalcore 
 #globalmem 
@@ -61,22 +50,21 @@ globalfan 90
 #globalpowertune 
 maxgputemp 95
 
-
 #|||||PER GPU SETTINGS|||||
 
 #(nvidia gtx1060-6gb) cordef=1950, memdef=3800, pwrmax=140
-cor 86.06.39.00.a8 1950
-mem 86.06.39.00.a8 4150
+cor 86.06.39.00.a8 1800
+mem 86.06.39.00.a8 4200
 fan 86.06.39.00.a8 90
 pwr 86.06.39.00.a8 140
 
 #(nvidia gtx1070-8gb) cordef=2000, memdef=3800, pwrmax=170
-#cor 86.04.50.00.72 1900
+#cor 86.04.50.00.72 1750
 #mem 86.04.50.00.72 4200
 #fan 86.04.50.00.72 90
 #pwr 86.04.50.00.72 170
 
-#cor 86.04.3b.00.70 1900
+#cor 86.04.3b.00.70 1750
 #mem 86.04.3b.00.70 4200
 #fan 86.04.3b.00.70 90
 #pwr 86.04.3b.00.70 170
@@ -163,7 +151,6 @@ pwr 86.06.39.00.a8 140
 #fan 86.06.56.00.04
 #pwr 86.06.56.00.04
 #vlt 86.06.56.00.04
-
 
 #|||||INDIVIDUAL RIG SETTINGS|||||
 #use notes provided below to set clocks appropriately, goal is stability with high hash rate
