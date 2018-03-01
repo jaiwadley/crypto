@@ -19,7 +19,7 @@ proxypool2 us1-etc.ethermine.org:14444
 
 #|||||GLOBAL OVERCLOCK AND TEMP SETTINGS|||||
 globalcore 1750
-globalmem 4200
+globalmem 4300
 globalfan 90
 #globalpowertune 
 maxgputemp 95
