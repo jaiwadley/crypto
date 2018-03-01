@@ -153,34 +153,25 @@ maxgputemp 95
 #vlt 86.06.56.00.04
 
 #|||||INDIVIDUAL RIG SETTINGS|||||
-#use notes provided below to set clocks appropriately, goal is stability with high hash rate
-#anything tagged 'replaced' was replaced with a rx470
-#if see 'relative' used to describe instability, that means decreased frequency of instability compared to regular 'stable/unstable'
-#if see 'extreme' or 'very' used to describe instability, that means instability happens almost more frequently than normal
-#if see 'stable until recently', that means 'stable before but unstable now' or vice versa
 
-#(rig 000-01) 1 rx470 & 5 rx480s (replaced 1 oscillating card): cor(~1300) stable , mem(1750/2000) unstable 
-#cor 4dc82f
-#mem 
+#(rig 000-01)
+cor 4dc82f 1180 1180 1180 1180 1180 1180
+mem 4dc82f 2100 2100 2100 1850 2100 2100
 #fan 
 #pwr 
-#miner 
-#wallet 
-#rigpool1 
-#rigpool2 
 #vlt 
 
-#(rig 000-02) 6 rx480s: cor(~1300) stable, mem(2000) unstable 
+#(rig 000-02)
 #cor f648f5
-mem f648f5 1950 1950 1950 1950 1950 1950
+#mem f648f5 
 
-#(rig 000-03) 2 rx470s/4 rx480s (replaced 2 crashers): cor(~1300) stable, mem(1750/2000) unstable 
-#cor f648ec 
-mem f648ec 1950 1950 1700 1950 1700 1950
+#(rig 000-03)
+cor f648ec 1180 1180 1180 1180 1180 1180
+mem f648ec 2100 2100 1850 2100 1850 2100
 
-#(rig 000-04) 1 rx470/5 rx480s: cor(~1300) stable, mem(1750/2000) unstable. Had incorrect share (must lower mem)
-#cor f648f3
-mem f648f3 1750 1950 1950 1950 1950 1950
+#(rig 000-04)
+cor f648f3 1180 1180 1180 1180 1180 1180
+mem f648f3 1850 2100 2100 2100 2100 2100
 
 #(rig 000-05) 6 rx480s: cor(~1300) stable, mem(2000) unstable
 #cor f450a9
