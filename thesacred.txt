@@ -21,17 +21,19 @@ stratumproxy enabled
 #proxypool2 eth-us-west1.nanopool.org:9999
 
 #(ETC wallet)
+#Poloniex:
 #proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
+#Exodus:
 proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
 
 #(ETC pools)
 proxypool1 us1-etc.ethermine.org:4444
 proxypool2 us1-etc.ethermine.org:14444
 
-#(??? wallet)
+#(ZEC wallet)
 #proxywallet t1N74buU4u34nahQZsVABZAj4SLBK3ZP21z
 
-#(??? pools)
+#(ZEC pools)
 #proxypool1 zec-us-east1.nanopool.org:6666
 #proxypool2 zec-us-west1.nanopool.org:6666
 
@@ -53,21 +55,30 @@ maxgputemp 95
 #|||||PER GPU SETTINGS|||||
 
 #(nvidia gtx1060-6gb) cordef=1950, memdef=3800, pwrmax=140
-#cor 86.06.39.00.a8 1800
-#mem 86.06.39.00.a8 4200
+#cor 86.06.39.00.a8 1750
+#mem 86.06.39.00.a8 4300
 #fan 86.06.39.00.a8 90
 #pwr 86.06.39.00.a8 140
+#miner 86.06.39.00.a8 ethminer
+
+#cor 86.06.63.00.de 1750
+#mem 86.06.63.00.de 4300
+#fan 86.06.63.00.de 90
+#pwr 86.06.63.00.de 140
+#miner 86.06.63.00.de ethminer
 
 #(nvidia gtx1070-8gb) cordef=2000, memdef=3800, pwrmax=170
 #cor 86.04.50.00.72 1750
-#mem 86.04.50.00.72 4200
+#mem 86.04.50.00.72 4300
 #fan 86.04.50.00.72 90
 #pwr 86.04.50.00.72 170
+#miner 86.04.50.00.72 ethminer
 
 #cor 86.04.3b.00.70 1750
-#mem 86.04.3b.00.70 4200
+#mem 86.04.3b.00.70 4300
 #fan 86.04.3b.00.70 90
 #pwr 86.04.3b.00.70 170
+#miner 86.04.3b.00.70 ethminer
 
 #(samsung rx470-4gb) cordef=~1240 (may vary between models), memdef=1750 (only one card was 2000)
 #cor 113-we353fu-m73
@@ -160,6 +171,7 @@ mem 4dc82f 2100 2100 2100 1875 2100 2100
 #fan 
 #pwr 
 #vlt 
+#miner
 
 #(rig 000-02)
 #cor f648f5
@@ -173,29 +185,29 @@ mem f648ec 2100 2100 1850 2100 1850 2100
 cor f648f3 1180 1180 1180 1180 1180 1180
 mem f648f3 1850 2100 2100 2100 2100 2100
 
-#(rig 000-05) 6 rx480s: cor(~1300) stable, mem(2000) unstable
+#(rig 000-05)
 #cor f450a9
 
-#(rig 000-06) 6 rx480s: cor(~1300) stable, mem+100(2100) unstable
+#(rig 000-06)
 #cor f64770
 
-#(rig 000-07) 6 rx480s: cor(~1300) stable, mem(2000) extremely unstable
+#(rig 000-07)
 cor f648fb 1150 1150 1150 1150 1150 1150
 mem f648fb 1950 1950 1950 1950 1950 1950
 
-#(rig 000-08) 6 gtx1060s: cor-200(1750) unstable, mem+350(4150) relatively stable until recently
+#(rig 000-08) 
 #cor f4508c
 
-#(rig 000-09) 6 gtx1070s: cor-200(1800) & mem+350(4150) relatively stable until recently
+#(rig 000-09)
 #cor 9319dc
 
-#(rig 000-10) 6 rx480s: cor(1290) & mem+200(2200) unstable
+#(rig 000-10) 
 #cor f450c0
 
-#(rig 000-11) 6 gtx1070s: cor-250(1750) & mem+400(4200) stable
+#(rig 000-11)
 #cor 0dc762
 
-#(rig 000-12) 6 gtx1070s: cor-250(1750) & mem+400(4200) unstable
+#(rig 000-12)
 #cor 00372d 
 #mem 00372d 
 #pwr 00372d 
