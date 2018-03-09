@@ -222,8 +222,8 @@ miner f648fb sgminer-gm
 #cor 24c98d
 
 #(rig 000-15) 
-cor 727ec3
-mem 727ec3
+#cor 727ec3
+#mem 727ec3
 
 #(rig 000-16)
 #cor 490476
@@ -294,8 +294,8 @@ mem 681cbd 1850 1850 1850 2100 2100 2100
 
 #(rig 002-01) 
 #cor f450a7
-mem f450a7 
-fan f450a7 
+#mem f450a7 
+#fan f450a7 
 
 #(rig 002-02) 
 #cor 489674
