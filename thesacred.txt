@@ -192,8 +192,8 @@ mem f648f3 1850 2100 2100 2100 2100 2100
 #cor f64770
 
 #(rig 000-07)
-cor f648fb 1150 1150 1150 1150 1150 1150
-mem f648fb 1950 1950 1950 1950 1950 1950
+cor f648fb 1180 1180 1180 1180 1180 1180
+mem f648fb 2100 2100 2100 2100 2100 2100
 miner f648fb sgminer-gm
 
 #(rig 000-08) 
@@ -207,124 +207,126 @@ miner f648fb sgminer-gm
 
 #(rig 000-11)
 #cor 0dc762
+#mem 0dc762
 
 #(rig 000-12)
 #cor 00372d 
 #mem 00372d 
 #pwr 00372d 
 
-#(rig 000-13) 6 gtx1070s: cor-200(1800) & mem+200(4000) unstable
-cor 003873 1900 1900 1900 1900 1900 1900
-mem 003873 4000 4000 4000 4000 4000 4000
+#(rig 000-13) 
+#cor 003873 
+#mem 003873 
 
-#(rig 000-14) 6 gtx1070s: cor-250(1750) & mem+510(4310) relatively unstable, but hashrate stable for some reason
+#(rig 000-14)
 #cor 24c98d
 
-#(rig 000-15) 6 gtx1070s: cor-200(1800) & mem+400(4200) unstable
-cor f45baf 1800 1800 1800 1800 1800 1800
-mem f45baf 3800 3800 3800 3800 3800 3800
+#(rig 000-15) 
+cor 727ec3
+mem 727ec3
 
-#(rig 000-16) 6 gtx1060s: cor-100(1850) & mem+350(4150) relatively stable until recently
+#(rig 000-16)
 #cor 490476
 
-#(rig 001-01) 6 gtx1070s: cor-200(1800) & mem+450(4250) unstable until recently
+#(rig 001-01)
 #cor 48a54a
 
-#(rig 001-02) 4 gtx1060s, 2 gtx1070s: cor-150/200(1800) & mem+300(4100) unstable 
-cor 27d5a6 1800 1800 1800 1800 1800 1800
-mem 27d5a6 4100 4100 4100 4100 4100 4100
-pwr 27d5a6 140 140 140 140 170 170
+#(rig 001-02)
+#cor 27d5a6 
+#mem 27d5a6 
+#pwr 27d5a6 
 
-#(rig 001-03) 6 gtx1070s: cor-200(1800) & mem+400(4200) relatively unstable until recently
+#(rig 001-03)
 #cor 48966c
 
-#(rig 001-04) 6 gtx1070s: cor-200(1800) & mem+510(4310) unstable
+#(rig 001-04)
 #cor 489664
 
-#(rig 001-05) 6 gtx1070s, cor-250(1750) & mem+200(4000) unstable, one card oscillates greatly
-cor 489995 1750 1750 1750 1750 1750 1750
-mem 489995 4000 4000 4000 4000 4000 4000
+#(rig 001-05)
+#cor 727ecf
+#mem 727ecf
 
-#(rig 001-06) 6 gtx1070s: cor-250(1750) & mem+200(4000) relatively unstable, cards don't OC well
-cor 930414 1750 1750 1750 1750 1750 1750
-mem 930414 4000 4000 4000 4000 4000 4000
+#(rig 001-06) 
+#cor 930414 
+#mem 930414 
 
-#(rig 001-07) 6 gtx1070s: cor-250(1750) & mem+200(4000) stable until recently
-cor 48994f 1750 1750 1750 1750 1750 1750
-mem 48994f 4000 4000 4000 4000 4000 4000
+#(rig 001-07) 
+#cor 48994f 
+#mem 48994f 
 
-#(rig 001-08) 6 gtx1070s: cor-250(1750) & mem+510(4310) stable
+#(rig 001-08) 
 #cor 489baf 
 #mem 489baf 
-#pwr 489baf 170 170 170 170 170 170
+#pwr 489baf 
 
-#(rig 001-09) 6 gtx1070s: cor-250(1750) & mem+510(4310) unstable
+#(rig 001-09) 
 #cor 489903
 
-#(rig 001-10) 6 gtx1070s: cor-250(1750) & mem+510(4310) unstable until recently
+#(rig 001-10)
 #cor 489f11
 
-#(rig 001-11) 6 rx480s: cor(~1300) stable, mem(~2000) very unstable
-#cor 489909
+#(rig 001-11) 
+cor 489909 1180 1180 1180 1180 1180 1180
+mem 489909 2100 2100 2100 2100 2100 2100
+miner 489909 sgminer-gm
 
-#(rig 001-12) 1 gtx1060 & 5 gtx1070s: cor-250(1750) & mem+450(4250) unstable 
-#cor 489a01 1750 1750 1750 1750 1750 1750
-#mem 489a01 4000 4000 4000 4000 4000 4000
+#(rig 001-12) 
+#cor 489a01 
+#mem 489a01 
 
-#(rig 001-13) 6 gtx1070s:cor-200(1800) & mem+200(4000) relatively stable
-cor 930513 1750 1750 1750 1750 1750 1750
-mem 930513 4000 4000 4000 4000 4000 4000
+#(rig 001-13) 
+#cor 930513 
+#mem 930513 
 
-#(rig 001-14) 6 gtx1070s: cor-250(1750) & mem+450(4250) stable, but hash rate unstable
+#(rig 001-14)
 #cor 48965c
-#mem 48965c 4250 4250 4250 4250 4250 4250
+#mem 48965c
 
-#(rig 001-15) 1 rx470 & 5 rx480s: replaced 1 480, replaced motherboard, still have 3 cards crashing (slots 1-3)
-#cor 681cbd
-#mem 681cbd 1950 1950 1700 2000 2000 2000
+#(rig 001-15) 
+cor 681cbd 1180 1180 1180 1180 1180 1180
+mem 681cbd 1850 1850 1850 2100 2100 2100
 
-#(rig 001-16) 6 rx470s: cor-220(1020) & mem(1750) unstable, 5 cards oscillate frequently. suggest powertune change
-#pwr 489306 3 3 3 3 3 3
-fan 489306 90 90 90 90 90 90
+#(rig 001-16)
+#cor 489306
+#mem 489306
+#pwr 489306 
+#fan 489306 
 
-#(rig 002-01) 1 rx470 & 5 rx480s: replaced 1 480, cor(1300) stable, mem(1750/2000) very unstable
+#(rig 002-01) 
 #cor f450a7
-mem f450a7 1700 1950 1950 1950 1950 1950
-fan f450a7 100 100 100 100 100 100
+mem f450a7 
+fan f450a7 
 
-#(rig 002-02) 1 rx470 & 5 rx480s: sacrificed to chinese gods. replaced 1 480, cor(~1300) stable until recently, mem+250/0(2000/2000) #very unstable, hash rate of
-#~16, needs to be looked at
+#(rig 002-02) 
+#cor 489674
 #pwr 489674
-fan 489674 100 100 100 100 100 100
+#fan 489674 
 
-#(rig 002-03) 6 rx480s: sacrificed to chinese gods. cor(~1300) stable, mem(2000) unstable, hash rate of ~16, needs looking at
+#(rig 002-03) 
 #cor f450a6
-fan f450a6 100 100 100 100 100 100
+#fan f450a6 100 100 100 100 100 100
 
-#(rig 002-04) 2 rx470s & 4 rx480s: cor(~1300) stable, mem(1750/2000) unstable
+#(rig 002-04) 
 #cor f45bd4
-fan f45bd4 100 100 100 100 100 100
+#fan f45bd4 
 
-#(rig 002-05) 1 rx470 & 6 rx 480s: replaced 1 480, cor (~1300) stable, mem(1750/2000) unstable, up fans since no AC
+#(rig 002-05)
 #cor f450aa 
 #mem f450aa 
 #pwr f450aa 
-fan f450aa 100 100 100 100 100 100
+#fan f450aa 
 
-#(rig 002-06) 1 rx470 & 5 rx480s: cor(~1270) & mem(1750/2000) unstable, 2 cards oscillate & 1 of these cards has high temp
-#cor f45bb8
-#mem f45bb8
-#pwr f45bb8
-fan f45bb8 100 100 100 100 100 100
+#(rig 002-06) 
+#cor 4d1d05
 
-#(rig 002-07) 6 rx 480s, up fans since no AC
+#(rig 002-07) 
 #cor f450b7
-fan f450b7 100 100 100 100 100 100
+#fan f450b7 
 
 #(rig 002-08)
 #cor f4508a
 
-#(rig 002-11) sacrificed to the chinese gods
+#(rig 002-11) 
 #cor 27d308
 
 #(rig 002-12)
@@ -333,10 +335,10 @@ fan f450b7 100 100 100 100 100 100
 #(rig 003-01)
 #cor 489925
 
-#(rig 003-02) cards drop hash rate, 6 1070s
-cor 4899a0 1750 1750 1750 1750 1750 1750
-mem 4899a0 4000 4000 4000 4000 4000 4000
-pwr 4899a0 170 170 170 170 170 170
+#(rig 003-02) 
+#cor 4899a0 
+#mem 4899a0 
+#pwr 4899a0 
 
 #(rig 003-03)
 #cor 489bb1
@@ -344,51 +346,50 @@ pwr 4899a0 170 170 170 170 170 170
 #(rig 003-04)
 #cor 48924a
 
-#(rig 003-05) 6 gtx 1070s, unstable at
+#(rig 003-05) 
 #cor 48990f
-#mem 
-#fan 
-#pwr 
 
 #(rig 003-06)
 #cor 489668
 
-#(rig 003-07) 2 rx 470s, 3 rx 480s, unstable at cor def 1290 mem def 2000, should be 6 cards, one not detected
-#cor 08aada
-mem 08aada 
+#(rig 003-07)
+cor 08aada 1180 1180 1180 1180 1180 1180
+mem 08aada 1850 1850 1850 2100 2100 2100
 
-#(rig 003-08) 6 rx 480s, unstable at cor def (1290) mem def (2000)
+#(rig 003-08)
 #cor f6479b
 
-#(rig 003-09) rx580s: sacrificed to chinese gods. cor(1370) & mem(1750/2000) relatively stable
-#cor 4d1bd3 1300 1300 1300 1300 1300
-#mem 4d1bd3 2000 2000 2000 2000 2000
-#pwr 4d1bd3 3 3 3 3 3 
+#(rig 003-09) 
+#cor 4d1bd3 
+#mem 4d1bd3 
+#pwr 4d1bd3  
 
 #(rig 003-10)
-#cor 488921
+cor 488921 1180 1180 1180 1180 1180 1180
+mem 488921 2100 2100 1850 2100 1850 2100
+miner 488921 sgminer-gm
 
 #(rig 003-11)
 #cor 27c703
 
-#(rig 100-01) 8 rx470s: cor(1240) & mem+250(2000) extremely unstable, one card down constantly
-cor b52f61 1150 1150 1150 1150 1150 1150 1150 1150
-mem b52f61 1750 1750 1750 1750 1750 1750 1750 1750
+#(rig 100-01)
+cor b52f61 1100 1100 1100 1100 1100 1100 1100 1100 
+mem b52f61 1850 1850 1850 1850 1850 1850 1850 1850 
+miner b52f61 sgminer-gm
 
-#(rig 100-02) busted power supply
+#(rig 100-02)
 #cor 4d1e41
 
 #(rig 100-03)
 #cor 4d1a10
 
-#(rig 100-04) 6 rx470s: cor(1240) & mem+250(2000) extremely unstable, multiple cards down, one card oscillates, high incorrect shares,
-#card 5 has broken core
-cor 4d1e4f 1150 1150 1150 1150 750 1150
-mem 4d1e4f 1750 1750 1750 1750 1750 1750
+#(rig 100-04) 
+#cor 4d1e4f 
+#mem 4d1e4f 
 
-#(rig 100-05) 6 rx470s: cor(1240/1130) & mem+250/+0(2000/2000) extremely unstable, cards down constantly
-cor 4cce59 1150 1150 1150 1150 1150 1150
-mem 4cce59 1750 1750 1750 1750 1750 2000
+#(rig 100-05)
+#cor 4cce59 
+#mem 4cce59
 
 #(rig 100-06)
 #cor 4d1a18
@@ -399,48 +400,51 @@ mem 4cce59 1750 1750 1750 1750 1750 2000
 #(rig 100-08)
 #cor 4dc925
 
-#(rig 100-09) 8 gp106s: chinese rig in trailer. cor-310(1600) & mem+700(4700) extremely unstable.
-cor 0830e8 1600 1600 1600 1600 1600 1600 1600 1600
+#(rig 100-09)
+cor 0830e8 1750 1750 1750 1750 1750 1750 1750 1750
 mem 0830e8 4300 4300 4300 4300 4300 4300 4300 4300
-fan 0830e8 90 90 90 90 90 90 90 90 90 
+miner 0830e8 ethminer
 
-#(rig in the closet) chinese rig
-#cor 793aeb
-
-#(rig CH3-08) rig above 003-10. chinese rig with nine rx470s. cor(~1090) & mem(2000) stable. two bad cards i think
-#cor 085cf8 1090 1090 1090 1090 1090 1090 1090 1090 1090 
-#mem 085cf8 2000 2000 2000 2000 2000 2000 2000 2000 2000 
-#pwr 085cf8 5 5 5 5 5 5 5 5 5
-
-#(rig CH2-07) chinese rig above 002-09
+#(rig CH2-07) 
 #cor 085b03
 #mem 085b03
 #fan 085b03
 #pwr 085b03
 
-#(rig CH2-08) chinese rig above 002-10
+#(rig CH2-08) 
 #cor 08531d
 #mem 08531d
 #fan 08531d
 #pwr 08531d 
 
-#(rig CH2-09) chinese rig 
-#cor 0853c1
-#mem 0853c1
-#fan 0853c1
-#pwr 0853c1 
-
-#(rig CH2-10) chinese rig
+#(rig CH2-10)
 #cor 085ac4
 #mem 085ac4
 #fan 085ac4
 #pwr 085ac4
 
-#(rig CH2-13) chinese rig below 002-11
+#(rig CH2-13) 
 #cor 085e0b
 #mem 085e0b
 #fan 085e0b
-#pwr 085e0b 5 5 5 5 5 5 5 5 5
+#pwr 085e0b 
+miner 085e0b sgminer-gm
+
+#(rig CH3-08) 
+#cor 085cf8 1090 1090 1090 1090 1090 1090 1090 1090 1090 
+#mem 085cf8 2000 2000 2000 2000 2000 2000 2000 2000 2000 
+#pwr 085cf8 5 5 5 5 5 5 5 5 5
+miner 085cf8 sgminer-gm
+
+#(rig chtnrm)
+#cor 0853c1
+#mem 0853c1
+#fan 0853c1
+#pwr 0853c1
+miner 0853c1 sgminer-gm
+
+#(closet)
+#cor 793aeb
 
 #|||||NICKNAMES|||||
 custompanel prti17918600
@@ -513,11 +517,11 @@ loc 4dc8d9 100-07
 loc 4dc925 100-08
 loc 0830e8 100-09
 
-loc 793aeb closet
-
-loc 085cf8 CH3-08
 loc 085b03 CH2-07
 loc 08531d CH2-08
-loc 0853c1 CHtnrm
 loc 085ac4 CH2-10
 loc 085e0b CH2-13
+loc 085cf8 CH3-08
+
+loc 0853c1 CHtnrm
+loc 793aeb closet
