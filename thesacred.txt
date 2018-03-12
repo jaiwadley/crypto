@@ -431,9 +431,9 @@ miner 0830e8 ethminer
 miner 085e0b sgminer-gm
 
 #(rig CH3-08) 
-#cor 085cf8 1090 1090 1090 1090 1090 1090 1090 1090 1090 
-#mem 085cf8 2000 2000 2000 2000 2000 2000 2000 2000 2000 
-#pwr 085cf8 5 5 5 5 5 5 5 5 5
+#cor 085cf8 
+#mem 085cf8 
+#pwr 085cf8 
 miner 085cf8 sgminer-gm
 
 #(rig chtnrm)
