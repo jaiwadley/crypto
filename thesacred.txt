@@ -422,6 +422,7 @@ miner b52f61 sgminer-gm
 #cor 085cf8 
 #mem 085cf8 
 #pwr 085cf8 
+flg 085cf8 -dcri 9
 
 #(rig CNJWOf) 
 #cor 085b03
