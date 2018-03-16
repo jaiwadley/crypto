@@ -400,48 +400,45 @@ miner b52f61 sgminer-gm
 #(rig 100-08)
 #cor 4dc925
 
-#(rig CHtr02)
-cor 0830e8 1900 1900 1900 1900 1900 1900 1900 1900
-mem 0830e8 4780 4780 4780 4780 4780 4780 4780 4780
-miner 0830e8 ethminer
-
-#(rig CNJaiW) 
-#cor 085b03
-#mem 085b03
-#fan 085b03
-#pwr 085b03
-
-#(rig CH2-08) 
+#(rig CN2-08) 
 #cor 08531d
 #mem 08531d
 #fan 08531d
 #pwr 08531d 
 
-#(rig CH2-10)
+#(rig CN2-10)
 #cor 085ac4
 #mem 085ac4
 #fan 085ac4
 #pwr 085ac4
 
-#(rig CH2-13) 
+#(rig CN2-13) 
 #cor 085e0b
 #mem 085e0b
 #fan 085e0b
 #pwr 085e0b 
-miner 085e0b sgminer-gm
 
-#(rig CH3-08) 
+#(rig CN3-08) 
 #cor 085cf8 
 #mem 085cf8 
 #pwr 085cf8 
-miner 085cf8 sgminer-gm
 
-#(rig chtnrm)
+#(rig CNJWOf) 
+#cor 085b03
+#mem 085b03
+#fan 085b03
+#pwr 085b03
+
+#(rig CNtr01)
 #cor 0853c1
 #mem 0853c1
 #fan 0853c1
 #pwr 0853c1
-miner 0853c1 sgminer-gm
+
+#(rig CNtr02)
+cor 0830e8 1900 1900 1900 1900 1900 1900 1900 1900
+mem 0830e8 4780 4780 4780 4780 4780 4780 4780 4780
+miner 0830e8 ethminer
 
 #(closet)
 #cor 793aeb
