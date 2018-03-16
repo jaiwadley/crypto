@@ -422,7 +422,7 @@ flg 085ac4 -dcri 9
 #mem 085e0b
 #fan 085e0b
 #pwr 085e0b 
-flg 085e0b -dcri 9
+#flg 085e0b -dcri 9
 
 #(rig CN3-08) 
 #cor 085cf8 
