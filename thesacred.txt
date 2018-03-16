@@ -400,23 +400,29 @@ miner b52f61 sgminer-gm
 #(rig 100-08)
 #cor 4dc925
 
+#(closet)
+#cor 793aeb
+
 #(rig CN2-08) 
 #cor 08531d
 #mem 08531d
 #fan 08531d
 #pwr 08531d 
+flg 08531d -dcri 9
 
 #(rig CN2-10)
 #cor 085ac4
 #mem 085ac4
 #fan 085ac4
 #pwr 085ac4
+flg 085ac4 -dcri 9
 
 #(rig CN2-13) 
 #cor 085e0b
 #mem 085e0b
 #fan 085e0b
 #pwr 085e0b 
+flg 085e0b -dcri 9
 
 #(rig CN3-08) 
 #cor 085cf8 
@@ -429,20 +435,20 @@ flg 085cf8 -dcri 9
 #mem 085b03
 #fan 085b03
 #pwr 085b03
+flg 085b03 -dcri 9
 
 #(rig CNtr01)
 #cor 0853c1
 #mem 0853c1
 #fan 0853c1
 #pwr 0853c1
+flg 0853c1 -dcri 9
 
 #(rig CNtr02)
-cor 0830e8 1900 1900 1900 1900 1900 1900 1900 1900
-mem 0830e8 4780 4780 4780 4780 4780 4780 4780 4780
+#cor 0830e8 1900 1900 1900 1900 1900 1900 1900 1900
+#mem 0830e8 4780 4780 4780 4780 4780 4780 4780 4780
 miner 0830e8 ethminer
-
-#(closet)
-#cor 793aeb
+#flg 0830e8 -dcri 9
 
 #|||||NICKNAMES|||||
 custompanel prti17918600
@@ -514,6 +520,8 @@ loc 4d1a18 100-06
 loc 4dc8d9 100-07
 loc 4dc925 100-08
 
+loc 793aeb closet
+
 loc 08531d CN2-08
 loc 085ac4 CN2-10
 loc 085e0b CN2-13
@@ -522,5 +530,5 @@ loc 085cf8 CN3-08
 loc 085b03 CNJWOf
 loc 0853c1 CNtr01
 loc 0830e8 CNtr02
-loc 793aeb closet
+
 
