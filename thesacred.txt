@@ -432,24 +432,24 @@ flg 085ac4 -dcri 9
 flg 085cf8 -dcri 9
 
 #(rig CNJWOf) 
+cor 0830e8 1850 1850 1850 1850 1850 1850 1850 1850 
+mem 0830e8 4780 4780 4780 4780 4780 4780 4780 4780
+miner 0830e8 ethminer
+#flg 0830e8 -dcri 9
+
+#(rig CNtr01)
 #cor 085b03
 #mem 085b03
 #fan 085b03
 #pwr 085b03
 flg 085b03 -dcri 9
 
-#(rig CNtr01)
+#(rig CNtr02)
 #cor 0853c1
 #mem 0853c1
 #fan 0853c1
 #pwr 0853c1
 flg 0853c1 -dcri 9
-
-#(rig CNtr02)
-cor 0830e8 1850 1850 1850 1850 1850 1850 1850 1850 
-mem 0830e8 4780 4780 4780 4780 4780 4780 4780 4780
-miner 0830e8 ethminer
-#flg 0830e8 -dcri 9
 
 #|||||NICKNAMES|||||
 custompanel prti17918600
@@ -528,8 +528,9 @@ loc 085ac4 CN2-10
 loc 085e0b CN2-13
 loc 085cf8 CN3-08
 
-loc 085b03 CNJWOf
-loc 0853c1 CNtr01
-loc 0830e8 CNtr02
+loc 0830e8 CNJWOf 
+loc 085b03 CNtr01 
+loc 0853c1 CNtr02
+
 
 
