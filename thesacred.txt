@@ -1,6 +1,6 @@
 #|||||FLAGS|||||
 flags --cl-global-work 8192 --farm-recheck 200
-autoreboot 3
+#autoreboot 3
 
 #|||||MINING PROGRAM FOR ALL RIGS|||||
 globalminer claymore
