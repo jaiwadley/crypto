@@ -50,116 +50,9 @@ globalfan 90
 #globalpowertune 
 maxgputemp 95
 
-#|||||PER GPU SETTINGS|||||
-#(nvidia gtx1060-6gb) cordef=1950, memdef=3800, pwrmax=140
-#cor 86.06.39.00.a8 1750
-#mem 86.06.39.00.a8 4300
-#fan 86.06.39.00.a8 90
-#pwr 86.06.39.00.a8 140
-
-#cor 86.06.63.00.de 1750
-#mem 86.06.63.00.de 4300
-#fan 86.06.63.00.de 90
-#pwr 86.06.63.00.de 140
-
-#(p106-6gb)
-#cor 86.06.56.00.04
-#mem 86.06.56.00.04
-#fan 86.06.56.00.04
-#pwr 86.06.56.00.04
-
-#(nvidia gtx1070-8gb) cordef=2000, memdef=3800, pwrmax=170
-#cor 86.04.50.00.72 1750
-#mem 86.04.50.00.72 4300
-#fan 86.04.50.00.72 90
-#pwr 86.04.50.00.72 170
-
-#cor 86.04.3b.00.70 1750
-#mem 86.04.3b.00.70 4300
-#fan 86.04.3b.00.70 90
-#pwr 86.04.3b.00.70 170
-
-#(samsung rx470-4gb) cordef=~1240 (may vary between models), memdef=1750 (only one card was 2000)
-#cor 113-we353fu-m73
-#mem 113-we353fu-m73
-#fan 113-we353fu-m73
-#pwr 113-we353fu-m73
-#vlt 113-we353fu-m73
-
-#cor 113-we353fu-m70
-#mem 113-we353fu-m70
-#fan 113-we353fu-m70
-#pwr 113-we353fu-m70
-#vlt 113-we353fu-m70
-
-#cor 113-PANDAAD009-SAM001
-#mem 113-PANDAAD009-SAM001
-#fan 113-PANDAAD009-SAM001
-#pwr 113-PANDAAD009-SAM001
-#vlt 113-PANDAAD009-SAM001
-
-#(samsung rx480-8gb) cordef=~1270 (varies between models), memdef=2000
-#cor 115-d000pil-100 
-#mem 115-d000pil-100 
-#fan 115-d000pil-100 
-#pwr 115-d000pil-100 
-#vlt 115-D000PIL-100 
-
-#cor 115-d000pi0-100
-#mem 115-d000pi0-100
-#fan 115-d000pi0-100
-#pwr 115-d000pi0-100
-#vlt 115-d000pi0-100
-
-#cor 113-rx480-8gb-160619jh-i1352m8-w80
-#mem 113-rx480-8gb-160619jh-i1352m8-w80
-#fan 113-rx480-8gb-160619jh-i1352m8-w80
-#pwr 113-rx480-8gb-160619jh-i1352m8-w80
-#vlt 113-rx480-8gb-160619jh-i1352m8-w80
-
-#cor 113-rx480-8gb-i1338m8g-w80
-#mem 113-rx480-8gb-i1338m8g-w80
-#fan 113-rx480-8gb-i1338m8g-w80
-#pwr 113-rx480-8gb-i1338m8g-w80
-#vlt 113-rx480-8gb-i1338m8g-w80
-
-#cor 113-rx480-8gb-c1338m8g-w80
-#mem 113-rx480-8gb-c1338m8g-w80
-#fan 113-rx480-8gb-c1338m8g-w80
-#pwr 113-rx480-8gb-c1338m8g-w80
-#vlt 113-rx480-8gb-c1338m8g-w80
-
-#cor 113-d0090101_103
-#mem 113-d0090101_103
-#fan 113-d0090101_103
-#pwr 113-d0090101_103
-#vlt 113-d0090101_103
-
-#cor 113-xxx-xxx 
-#mem 113-xxx-xxx 
-#fan 113-xxx-xxx 
-#pwr 113-xxx-xxx 
-#vlt 113-xxx-xxx 
-
-#(hynix rx570-4gb): cordef=1130, memdef=2000. newest chinese rigs
-#cor 113-SNDC940HY-X01
-#mem 113-SNDC940HY-X01
-#fan 113-SNDC940HY-X01
-#pwr 113-SNDC940HY-X01
-#vlt 113-SNDC940HY-X01
-
-#(samsung rx580-8gb): cordef=~1370 (may vary between individual cards), memdef=~2000 (varies between individual cards)
-#cor xxx-xxx-xxxx
-#mem xxx-xxx-xxxx
-#fan xxx-xxx-xxxx
-#pwr xxx-xxx-xxxx
-#vlt xxx-xxx-xxxx
-
-
 #|||||INDIVIDUAL RIG SETTINGS|||||
-
 #(rig 000-01)
-cor 4dc82f 1180 1180 1180 1130 1200 1180
+cor 4dc82f 1180 1180 1180 1130 1180 1180
 mem 4dc82f 2050 2050 2050 1850 2000 2050
 vlt 4dc82f 930 930 930 930 930 930
 #pwr 4dc82f 4 4 4 4 4 4
@@ -167,37 +60,37 @@ vlt 4dc82f 930 930 930 930 930 930
 
 #(rig 000-02)
 cor f648f5 1180 1180 1180 1180 1180 1180
-mem f648f5 2050 2050 2050 2050 2050 2050
+mem f648f5 2000 2000 2000 2000 2000 2000 
 vlt f648f5 930 930 930 930 930 930
 #pwr f648f5 4 4 4 4 4 4
 
 #(rig 000-03)
 cor f648ec 1180 1180 1130 1180 1130 1180
-mem f648ec 2050 2050 1850 2050 1850 2050
+mem f648ec 2000 2000 1850 2000 2000 2000 
 vlt f648ec 930 930 930 930 930 930
 #pwr f648ec 4 4 4 4 4 4
 
 #(rig 000-04)
 cor f648f3 1130 1180 1180 1180 1180 1180
-mem f648f3 1850 2050 2050 2050 2050 2050
+mem f648f3 1850 2000 2000 2000 2000 2000
 vlt f648f3 930 930 930 930 930 930
 #pwr f648f3 4 4 4 4 4 4
 
 #(rig 000-05): GPU0-2 having trouble overclocking
 cor f450a9 1180 1180 1180 1180 1180 1180
-mem f450a9 2000 2000 2000 2050 2050 2050
+mem f450a9 2000 2000 2000 2000 2000 2000
 vlt f450a9 930 930 930 930 930 930
 #pwr f450a9 4 4 4 4 4 4
 
 #(rig 000-06)
 cor f64770 1180 1180 1130 1180 1180 1180
-mem f64770 2050 2050 1850 2050 2050 2050 
+mem f64770 2000 2000 1850 2000 2000 2000 
 vlt f64770 930 930 930 930 930 930
 #pwr f64770 4 4 4 4 4 4
 
 #(rig 000-07)
 cor f648fb 1180 1180 1180 1180 1180 1180
-mem f648fb 2050 2050 2050 2050 2050 2050
+mem f648fb 2000 2000 2000 2000 2000 2000
 vlt f648fb 930 930 930 930 930 930
 #pwr f648fb 4 4 4 4 4 4
 
@@ -209,7 +102,7 @@ vlt f648fb 930 930 930 930 930 930
 
 #(rig 000-10) 
 cor f450c0 1180 1180 1180 1180 1180 1180
-mem f450c0 2050 2050 2050 2050 2050 2050
+mem f450c0 2000 2000 2000 2000 2000 2000
 vlt f450c0 930 930 930 930 930 930
 #pwr f450c0 4 4 4 4 4 4
 
