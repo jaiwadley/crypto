@@ -1,9 +1,22 @@
-#|||||MINER & SETTINGS|||||
+#|||||GENERAL SETTINGS|||||
 globalminer claymore
 stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
 #claymore=flags -dcri 9
 #autoreboot 3
+
+#(clocks)
+#globalcore 
+#globalmem 
+globalfan 90
+#globalpowertune 
+maxgputemp 95
+
+#(LBC dual mine)
+#dualminer enabled
+#dualminer-coin lbc
+#dualminer-wallet (insert jason's lbc address here)
+#dualminer-pool (insert lbc pool here)
 
 #|||||COINS|||||
 #(ETH wallet)
@@ -30,21 +43,7 @@ proxypool2 us1-etc.ethermine.org:14444
 #proxypool1 zec-us-east1.nanopool.org:6666
 #proxypool2 zec-us-west1.nanopool.org:6666
 
-#|||||DUAL MINING|||||
-#dualminer enabled
-#(LBC dual mine)
-#dualminer-coin lbc
-#dualminer-wallet (insert jason's lbc address here)
-#dualminer-pool (insert lbc pool here)
-
-#|||||GLOBAL OVERCLOCK AND TEMP SETTINGS|||||
-#globalcore 
-#globalmem 
-globalfan 90
-#globalpowertune 
-maxgputemp 95
-
-#|||||INDIVIDUAL RIG SETTINGS|||||
+#|||||INDIVIDUAL RIGS SETTINGS|||||
 #(rig 000-01): GPU4 having trouble overclocking
 cor 4dc82f 1180 1180 1180 1130 1180 1180
 mem 4dc82f 2050 2050 2050 1850 2000 2050
