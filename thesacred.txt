@@ -56,33 +56,28 @@ maxgputemp 95
 #mem 86.06.39.00.a8 4300
 #fan 86.06.39.00.a8 90
 #pwr 86.06.39.00.a8 140
-miner 86.06.39.00.a8 ethminer
 
 #cor 86.06.63.00.de 1750
 #mem 86.06.63.00.de 4300
 #fan 86.06.63.00.de 90
 #pwr 86.06.63.00.de 140
-miner 86.06.63.00.de ethminer
 
-#(nvidia device-6gb): cordef=1910, memdef=4000. older chinese rig
+#(p106-6gb)
 #cor 86.06.56.00.04
 #mem 86.06.56.00.04
 #fan 86.06.56.00.04
 #pwr 86.06.56.00.04
-miner 86.06.56.00.04 ethminer
 
 #(nvidia gtx1070-8gb) cordef=2000, memdef=3800, pwrmax=170
 #cor 86.04.50.00.72 1750
 #mem 86.04.50.00.72 4300
 #fan 86.04.50.00.72 90
 #pwr 86.04.50.00.72 170
-miner 86.04.50.00.72 ethminer
 
 #cor 86.04.3b.00.70 1750
 #mem 86.04.3b.00.70 4300
 #fan 86.04.3b.00.70 90
 #pwr 86.04.3b.00.70 170
-miner 86.04.3b.00.70 ethminer
 
 #(samsung rx470-4gb) cordef=~1240 (may vary between models), memdef=1750 (only one card was 2000)
 #cor 113-we353fu-m73
