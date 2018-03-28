@@ -1,17 +1,14 @@
-#|||||FLAGS|||||
+#|||||MINER & SETTINGS|||||
+globalminer claymore
+stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
+#claymore=flags -dcri 9
 #autoreboot 3
 
-#|||||MINING PROGRAM FOR ALL RIGS|||||
-globalminer claymore
-
-#|||||WALLET AND POOLS|||||
-stratumproxy enabled
-
+#|||||COINS|||||
 #(ETH wallet)
 #proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
 #proxywallet 0x966C32aD0190B74dc561db93EcAf3f439B7E1A77
-
 #(ETH pools)
 #proxypool1 us1.ethermine.org:4444
 #proxypool2 us2.ethermine.org:4444
@@ -23,21 +20,18 @@ stratumproxy enabled
 #proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
 #Exodus:
 proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
-
 #(ETC pools)
 proxypool1 us1-etc.ethermine.org:4444
 proxypool2 us1-etc.ethermine.org:14444
 
 #(ZEC wallet)
 #proxywallet t1N74buU4u34nahQZsVABZAj4SLBK3ZP21z
-
 #(ZEC pools)
 #proxypool1 zec-us-east1.nanopool.org:6666
 #proxypool2 zec-us-west1.nanopool.org:6666
 
-#|||||DUAL MINING PARAMETERS|||||
+#|||||DUAL MINING|||||
 #dualminer enabled
-
 #(LBC dual mine)
 #dualminer-coin lbc
 #dualminer-wallet (insert jason's lbc address here)
@@ -51,14 +45,14 @@ globalfan 90
 maxgputemp 95
 
 #|||||INDIVIDUAL RIG SETTINGS|||||
-#(rig 000-01)
+#(rig 000-01): GPU4 having trouble overclocking
 cor 4dc82f 1180 1180 1180 1130 1180 1180
 mem 4dc82f 2050 2050 2050 1850 2000 2050
 vlt 4dc82f 930 930 930 930 930 930
 #pwr 4dc82f 4 4 4 4 4 4
 #fan 4dc82f
 
-#(rig 000-02)
+#(rig 000-02) GPU5 having trouble overclocking
 cor f648f5 1200 1200 1200 1250 1250 1250
 mem f648f5 2025 2025 2025 2025 2025 2000
 vlt f648f5 930 930 930 930 930 930
@@ -76,7 +70,7 @@ mem f648f3 1850 2000 2000 2000 2000 2000
 vlt f648f3 930 930 930 930 930 930
 #pwr f648f3 4 4 4 4 4 4
 
-#(rig 000-05): GPU0-2 having trouble overclocking
+#(rig 000-05): GPUs0-2 having trouble overclocking
 cor f450a9 1180 1180 1180 1180 1180 1180
 mem f450a9 2000 2000 2000 2000 2000 2000
 vlt f450a9 930 930 930 930 930 930
