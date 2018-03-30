@@ -1,27 +1,25 @@
-#|||||REBOOT|||||
-autoreboot true
-
-#|||||FLAGS|||||
-flags --cl-global-work 8192 --farm-recheck 200
-
-#|||||MINING PROGRAM FOR ALL RIGS|||||
+#|||||SETTINGS|||||
 globalminer ethminer
-
-#|||||WALLET AND POOLS|||||
 stratumproxy enabled
+flags --cl-global-work 8192 --farm-recheck 200
+#autoreboot 1
 
-#(ETC wallet)
-proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
-
-#(ETC pools)
-proxypool1 us1-etc.ethermine.org:4444
-proxypool2 us1-etc.ethermine.org:14444
-
-#|||||GLOBAL OVERCLOCK AND TEMP SETTINGS|||||
 globalcore 1750
 globalmem 4300
 globalfan 90
 #globalpowertune 
+maxgputemp 95
+
+#(ETC)
+proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
+proxypool1 us1-etc.ethermine.org:4444
+proxypool2 us1-etc.ethermine.org:14444
+
+#(clocks)
+#globalcore 1750
+globalmem 4300
+globalfan 90
+globalpowertune 95
 maxgputemp 95
 
 #|||||NICKNAMES|||||
@@ -93,13 +91,14 @@ loc 4cce59 100-05
 loc 4d1a18 100-06
 loc 4dc8d9 100-07
 loc 4dc925 100-08
-loc 0830e8 100-09
 
 loc 793aeb closet
 
-loc 085cf8 CH3-08
-loc 085b03 CH2-07
-loc 08531d CH2-08
-loc 0853c1 CHtnrm
-loc 085ac4 CH2-10
-loc 085e0b CH2-13
+loc 08531d CN2-08
+loc 085ac4 CN2-10
+loc 085e0b CN2-13
+loc 085cf8 CN3-08
+
+loc 0830e8 CNJWOf 
+loc 085b03 CNtr01 
+loc 0853c1 CNtr02
