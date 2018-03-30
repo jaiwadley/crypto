@@ -4,23 +4,16 @@ stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
 #autoreboot 1
 
-globalcore 1750
+#globalcore 1750
 globalmem 4300
 globalfan 90
-#globalpowertune 
+globalpowertune 95
 maxgputemp 95
 
 #(ETC)
 proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
 proxypool1 us1-etc.ethermine.org:4444
 proxypool2 us1-etc.ethermine.org:14444
-
-#(clocks)
-#globalcore 1750
-globalmem 4300
-globalfan 90
-globalpowertune 95
-maxgputemp 95
 
 #|||||NICKNAMES|||||
 custompanel prti17918600
