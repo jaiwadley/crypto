@@ -43,7 +43,7 @@ proxypool2 us1-etc.ethermine.org:14444
 #proxypool1 zec-us-east1.nanopool.org:6666
 #proxypool2 zec-us-west1.nanopool.org:6666
 
-#|||||INDIVIDUAL RIGS SETTINGS|||||
+#|||||INDIVIDUAL RIG SETTINGS|||||
 #(rig 000-01): GPUs1,4,&5 having trouble overclocking
 cor 4dc82f 1180 1180 1180 1130 1180 1180
 mem 4dc82f 2000 2050 2050 1850 2000 2000
@@ -267,7 +267,7 @@ mem f450aa 2000 2000 2000 1850 2000 2000
 vlt f450aa 930 930 930 930 930 930
 #pwr f450aa 4 4 4 4 4 4
 
-#(rig 002-06) 
+#(rig 002-06): GPU1 crashed 16 hours in with incorrect shares
 cor 4d1d05 1130 1180 1130 1180 1180 1130
 mem 4d1d05 1850 2000 1850 2000 2000 1850
 vlt 4d1d05 930 930 930 930 930 930
