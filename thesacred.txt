@@ -44,7 +44,7 @@ proxypool2 us1-etc.ethermine.org:14444
 #proxypool2 zec-us-west1.nanopool.org:6666
 
 #|||||INDIVIDUAL RIG SETTINGS|||||
-#(rig 000-01): GPUs1,4,&5 having trouble overclocking
+#(rig 000-01): GPUs0,4,&5 having trouble overclocking
 cor 4dc82f 1180 1180 1180 1130 1180 1180
 mem 4dc82f 2000 2050 2050 1850 2000 2000
 vlt 4dc82f 930 930 930 930 930 930
@@ -75,7 +75,7 @@ mem f450a9 2000 2000 2000 2000 2000 2000
 vlt f450a9 930 930 930 930 930 930
 #pwr f450a9 4 4 4 4 4 4
 
-#(rig 000-06): GPU0 having trouble at default clock
+#(rig 000-06): GPU0 having trouble with flash
 cor f64770 1180 1180 1130 1180 1180 1180
 mem f64770 2000 2000 1850 2000 2000 2000 
 vlt f64770 930 930 930 930 930 930
@@ -237,7 +237,7 @@ mem 489306 1850 1850 1850 1850 1850 1850
 vlt 489306 930 930 930 930 930 930
 #pwr 489306 4 4 4 4 4 4
 
-#(rig 002-01): GPU2 having trouble with default clock
+#(rig 002-01): GPU2 having trouble with flash
 cor f450a7 1130 1180 1180 1180 1180 1180
 mem f450a7 1850 2000 2000 2000 2000 2000
 vlt f450a7 930 930 930 930 930 930
@@ -339,7 +339,7 @@ mem 08aada 1850 1850 1850 2000 2000 2000
 vlt 08aada 930 930 930 930 930 930
 #pwr 08aada 4 4 4 4 4 4
 
-#(rig 003-08)
+#(rig 003-08): GPU5 having trouble with flash
 cor f6479b 1180 1180 1180 1180 1180 1180
 mem f6479b 2000 2000 2000 2000 2000 2000
 vlt f6479b 930 930 930 930 930 930
