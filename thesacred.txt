@@ -21,7 +21,9 @@ maxgputemp 95
 
 #|||||COINS|||||
 #(ETH wallet)
+#Gemini:
 proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
+#???:
 #proxywallet 0x966C32aD0190B74dc561db93EcAf3f439B7E1A77
 #(ETH pools)
 proxypool1 us1.ethermine.org:4444
@@ -65,7 +67,7 @@ vlt f648ec 930 930 930 930 930 930
 #dpm f648ec 4 4 4 4 4 4
 
 #(rig 000-04)
-cor f648f3 1130 1200 1200 1250 1250 1250
+cor f648f3 1130 1200 1200 1200 1200 1200
 mem f648f3 1850 2000 2000 2000 2000 2000
 vlt f648f3 950 950 950 950 950 950
 #dpm f648f3 4 4 4 4 4 4
