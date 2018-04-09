@@ -31,9 +31,8 @@ proxypool2 us2.ethermine.org:4444
 #proxypool1 us1-etc.ethermine.org:4444
 #proxypool2 us1-etc.ethermine.org:14444
 
-#(ZEC wallet)
+#(ZEC)
 #proxywallet t1N74buU4u34nahQZsVABZAj4SLBK3ZP21z
-#(ZEC pools)
 #proxypool1 zec-us-east1.nanopool.org:6666
 #proxypool2 zec-us-west1.nanopool.org:6666
 
