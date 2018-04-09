@@ -54,7 +54,7 @@ vlt 4dc82f 930 930 930 930 930 930
 #dpm 4dc82f 4 4 4 4 4 4
 #fan 4dc82f
 
-#(rig 000-02) GPUs4&5 having trouble overclocking
+#(rig 000-02) GPUs4&5 having trouble overclocking (GPU4 may have been riser issue)
 cor f648f5 1200 1200 1200 1200 1200 1200
 mem f648f5 2025 2025 2025 2025 2000 2000
 vlt f648f5 930 930 930 950 950 950
@@ -66,7 +66,7 @@ mem f648ec 2000 2000 1850 2000 2000 2000
 vlt f648ec 930 930 930 930 930 930
 #dpm f648ec 4 4 4 4 4 4
 
-#(rig 000-04)
+#(rig 000-04): GPUs3&4 having trouble with flash (or GPUs3&4 have riser issue)
 cor f648f3 1130 1200 1200 1200 1200 1200
 mem f648f3 1850 2000 2000 2000 2000 2000
 vlt f648f3 950 950 950 950 950 950
@@ -207,7 +207,7 @@ miner 489f11 ethminer
 #(rig 001-11) GPUs2-3 having trouble overclocking
 cor 489909 1180 1180 1180 1180 1180 1180
 mem 489909 2000 2000 2000 2000 2000 2000
-vlt 489909 930 930 930 930 930 930
+vlt 489909 950 950 950 950 950 950
 #dpm 489909 4 4 4 4 4 4
 
 #(rig 001-12) 
