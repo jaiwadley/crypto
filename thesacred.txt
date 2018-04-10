@@ -427,7 +427,7 @@ vlt 793aeb 930 930 930 930 930 930 930 930 930
 #vlt 08531d
 #dpm 08531d
 #pwr 08531d 
-flg 08531d -dcri 9
+#flg 08531d -dcri 9
 
 #(rig CN2-10)
 #cor 085ac4
