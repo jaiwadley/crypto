@@ -266,8 +266,8 @@ vlt f45bd4 930 930 930 930 930 930
 
 #(rig 002-05): GPU3 having trouble overclocking maybe
 cor f450aa 1180 1180 1180 1130 1180 1180
-mem f450aa 2000 2000 2000 1800 2000 2000
-vlt f450aa 950 950 950 950 950 950
+mem f450aa 2000 2000 2000 1850 2000 2000
+vlt f450aa 950 950 950 1050 950 950
 #dpm f450aa 4 4 4 4 4 4
 
 #(rig 002-06): GPU1 crashed 16 hours in with incorrect shares
