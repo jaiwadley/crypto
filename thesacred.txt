@@ -47,10 +47,10 @@ proxypool2 us2.ethermine.org:4444
 #proxypool2 zec-us-west1.nanopool.org:6666
 
 #|||||INDIVIDUAL RIG SETTINGS|||||
-#(rig 000-01): GPUs0,4,&5 having trouble overclocking
+#(rig 000-01): GPUs0,2,4,&5 having trouble overclocking
 cor 4dc82f 1180 1180 1180 1130 1180 1180
-mem 4dc82f 2000 2050 2050 1850 2000 2000
-vlt 4dc82f 930 930 930 930 930 930
+mem 4dc82f 2000 2050 2000 1850 2000 2000
+vlt 4dc82f 950 950 950 950 950 950
 #dpm 4dc82f 4 4 4 4 4 4
 #fan 4dc82f
 
@@ -216,9 +216,9 @@ mem 489a01 4300 4300 4300 4300 4300 4300
 pwr 489a01 126 126 126 126 126 126
 miner 489a01 ethminer
 
-#(rig 001-13) 
+#(rig 001-13): rig getting lots of incorrect shares 
 #cor 930513 
-mem 930513 4300 4300 4300 4300 4300 4300
+mem 930513 4000 4000 4000 4000 4000 4000
 pwr 930513 126 126 126 126 126 126
 miner 930513 ethminer
 
