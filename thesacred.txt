@@ -216,11 +216,11 @@ mem 489a01 4300 4300 4300 4300 4300 4300
 pwr 489a01 126 126 126 126 126 126
 miner 489a01 ethminer
 
-#(rig 001-13): rig getting lots of incorrect shares 
+#(rig 001-13): rig getting lots of incorrect shares, using claymore to troubleshoot 
 #cor 930513 
-mem 930513 4000 4000 4000 4000 4000 4000
+mem 930513 4300 4300 4300 4300 4300 4300
 pwr 930513 126 126 126 126 126 126
-miner 930513 ethminer
+#miner 930513 ethminer
 
 #(rig 001-14)
 #cor 48965c
