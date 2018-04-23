@@ -6,7 +6,7 @@ flags --cl-global-work 8192 --farm-recheck 200
 
 globalmem 4000
 globalfan 90
-globalpowertune 95
+globalpowertune 105
 maxgputemp 95
 
 #(ETH)
