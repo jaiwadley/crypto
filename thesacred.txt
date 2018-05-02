@@ -391,7 +391,7 @@ flg 085ac4 -dcri 9
 #vlt 085cf8
 #dpm 085cf8
 #pwr 085cf8 
-flg 085cf8 -dcri 9
+#flg 085cf8 -dcri 9
 
 #(rig CNJWOf) 
 mem 0830e8 4700 4700 4700 4700 4700 4700 4700 4700
