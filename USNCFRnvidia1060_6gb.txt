@@ -33,5 +33,5 @@ proxypool2 us2.ethermine.org:4444
 #proxypool2 zec-us-west1.nanopool.org:6666
 
 #|||||NICKNAMES|||||
-custompanel prti17918600
+custompanel prti18918600
 
