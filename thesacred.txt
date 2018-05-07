@@ -6,7 +6,7 @@ flags --cl-global-work 8192 --farm-recheck 200
 #claymore=flags -dcri 9
 #autoreboot 3
 
-custompanel prti17918777
+custompanel prti18918777
 
 #(clocks)
 #globalcore 
