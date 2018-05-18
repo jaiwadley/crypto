@@ -4,9 +4,9 @@ stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
 #autoreboot 3
 
-globalmem 4050
+globalmem 4300
 globalfan 90
-globalpowertune 100
+globalpowertune 105
 maxgputemp 95
 
 #(ETH)
