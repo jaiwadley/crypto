@@ -1,15 +1,14 @@
 #|||||SETTINGS|||||
-globalminer ethminer
 stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
 #autoreboot 3
 
+#(ETH)
+globalminer ethminer
 globalmem 4300
 globalfan 90
 globalpowertune 105
 maxgputemp 95
-
-#(ETH)
 #Gemini:
 proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
 #???:
@@ -18,7 +17,6 @@ proxypool1 us1.ethermine.org:4444
 proxypool2 us2.ethermine.org:4444
 #proxypool1 eth-us-east1.nanopool.org:9999
 #proxypool2 eth-us-west1.nanopool.org:9999
-
 #(ETC)
 #Poloniex:
 #proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
@@ -28,10 +26,64 @@ proxypool2 us2.ethermine.org:4444
 #proxypool2 us1-etc.ethermine.org:14444
 
 #(ZEC)
+#globalminer dstm-zcash
+#globalcore 2090
+#globalmem 4250
+#globalfan 90
+#globalpowertune 90
 #proxywallet t1N74buU4u34nahQZsVABZAj4SLBK3ZP21z
 #proxypool1 zec-us-east1.nanopool.org:6666
 #proxypool2 zec-us-west1.nanopool.org:6666
 
 #|||||NICKNAMES|||||
 custompanel prti18918600
+loc 6e6599 200-01
+loc 242e07 200-02
+loc 6e676c 200-03
+loc 6e6691 200-04
+loc 6e6463 200-05
+loc 6e65b3 200-06
+loc 6e6649 200-07
+loc 242bb7 200-08
+loc 6e6603 201-01
+loc 6e6d00 201-02
+loc 6e6425 201-03
+loc 6e678a 201-04
+loc 6e676e 201-05
+loc 6e6cfa 201-06
+loc 6e643b 201-07
+loc 6e6bb6 201-08
+loc 6e649c 202-01
+loc 6e63af 202-02
+loc 6e642f 202-03
+loc 6e6d3c 202-04
+loc c39e4c 202-05
+loc 6e6679 202-06
+loc 6e63ac 202-07
+loc 6e6af0 202-08
+loc xxxxxx 203-01
+loc c39f45 203-02
+loc c469f6 203-03
+loc xxxxxx 203-04
+loc c39f16 203-05
+loc 242a73 203-06
+loc xxxxxx 203-07
+loc xxxxxx 203-08
+loc xxxxxx 204-01
+loc 6e6608 204-02
+loc xxxxxx 204-03
+loc xxxxxx 204-04
+loc xxxxxx 204-05
+loc 6e657f 204-06
+loc xxxxxx 204-07
+loc 6e6267 204-08
+loc c39d20 205-01
+loc c46aca 205-02
+loc xxxxxx 205-03
+loc xxxxxx 205-04
+loc xxxxxx 205-05
+loc 6e664d 205-06
+loc xxxxxx 205-07
+loc 6e644f 205-08
+
 
