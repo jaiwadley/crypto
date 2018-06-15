@@ -589,6 +589,8 @@ loc 4cce59 212-06
 loc 4d1e41 212-07
 loc 4d1a18 212-08
 
+loc 08812a 304-05
+loc 088157 305-01
 loc 0882d7 305-03
 
 loc 793aeb closet
