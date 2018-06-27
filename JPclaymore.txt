@@ -1,0 +1,144 @@
+#|||||SETTINGS|||||
+stratumproxy enabled
+flags --cl-global-work 8192 --farm-recheck 200
+#autoreboot 3
+
+#(ETH)
+globalminer claymore
+globalmem 4300
+globalfan 90
+globalpowertune 95
+maxgputemp 95
+#Gemini:
+proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
+#???:
+#proxywallet 0x966C32aD0190B74dc561db93EcAf3f439B7E1A77
+proxypool1 us1.ethermine.org:4444
+proxypool2 us2.ethermine.org:4444
+#(ETC)
+#Poloniex:
+#proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
+#Exodus:
+#proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
+#proxypool1 us1-etc.ethermine.org:4444
+#proxypool2 us1-etc.ethermine.org:14444
+
+#(ZEC)
+#globalminer dstm-zcash
+#globalcore 2090
+#globalmem 4250
+#globalfan 90
+#globalpowertune 90
+#proxywallet t1N74buU4u34nahQZsVABZAj4SLBK3ZP21z
+#proxypool1 zec-us-east1.nanopool.org:6666
+#proxypool2 zec-us-west1.nanopool.org:6666
+
+#|||||NICKNAMES|||||
+custompanel prti18918600
+loc 6e6599 201-01
+loc 242e07 201-02
+loc 6e676c 201-03
+loc 6e6691 201-04
+loc 6e6463 201-05
+loc 6e65b3 201-06
+loc 6e6649 201-07
+loc 242bb7 201-08
+
+loc 6e6603 202-01
+loc 6e6d00 202-02
+loc 6e6425 202-03
+loc 6e678a 202-04
+loc 6e676e 202-05
+loc 6e6cfa 202-06
+loc 6e643b 202-07
+loc 6e6bb6 202-08
+
+loc 6e649c 203-01
+loc 6e63af 203-02
+loc 6e642f 203-03
+loc 6e6d3c 203-04
+loc c39e4c 203-05
+loc 6e6679 203-06
+loc 6e63ac 203-07
+loc 6e6af0 203-08
+
+loc 242dcc 204-01
+loc c39f45 204-02
+loc c469f6 204-03
+loc 6e63a5 204-04
+loc c39f16 204-05
+loc 242a7e 204-06
+loc c3a064 204-07
+loc 6e6687 204-08
+
+loc c39e3d 205-01
+loc 6e6608 205-02
+loc 6e6695 205-03
+loc c39f74 205-04
+loc 6e6431 205-05
+loc 6e657f 205-06
+loc 6e6461 205-07
+loc 6e6267 205-08
+
+loc c39d20 206-01
+loc c46aca 206-02
+loc c46bd9 206-03
+loc 6e6690 206-04
+loc 6e6467 206-05
+loc 6e664d 206-06
+loc 6e6394 206-07
+loc 6e644f 206-08
+
+loc c46bfd 207-01
+loc 6e6bb0 207-02
+loc 6e65a1 207-03
+loc c46a9e 207-04
+loc c46a87 207-05
+loc c3a088 207-06
+loc c46b91 207-07
+loc 6e67e0 207-08
+
+loc 6e6d0c 208-01
+loc 6e6671 208-02
+loc c46a1b 208-03
+loc 242ba6 208-04
+loc 6e6581 208-05
+loc 6e6b6a 208-06
+loc 6e668b 208-07
+loc 6e6d06 208-08
+
+loc 6e6a9c 209-01
+loc 6e5ff3 209-02
+loc 6e663a 209-03
+loc 6e6b76 209-04
+loc 6e667d 209-05
+loc 6e6d04 209-06
+loc 6e6667 209-07
+loc 242e11 209-08
+
+loc 242e0f 210-01
+loc 6e67d3 210-02
+loc 6e649a 210-03
+loc 242dee 210-04
+loc 6e6aba 210-05
+loc 6e642d 210-06
+loc 6e6663 210-07
+loc 6e662c 210-08
+
+loc 6e6a94 211-01
+loc 6e6cfe 211-02
+loc 6e6669 211-03
+loc 6e6683 211-04
+loc 6e6ba6 211-05
+loc 6e6531 211-06
+loc 6e6677 211-07
+loc 6e659b 211-08
+
+loc 6e6ba4 212-01
+loc 6e642b 212-02
+loc 6e6686 212-03
+loc 6e661a 212-04
+loc b52f61 212-05
+loc 4cce59 212-06
+loc 4d1e41 212-07
+loc 4d1a18 212-08
