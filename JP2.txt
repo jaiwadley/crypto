@@ -4,7 +4,7 @@ flags --cl-global-work 8192 --farm-recheck 200
 #autoreboot 3
 
 #(ETH)
-globalminer claymore
+globalminer ethminer
 globalmem 4100
 globalfan 90
 globalpowertune 90
