@@ -5,7 +5,7 @@ flags --cl-global-work 8192 --farm-recheck 200
 
 #(ETH)
 globalminer ethminer
-globalmem 4100
+globalmem 4300
 globalfan 90
 globalpowertune 90
 maxgputemp 95
