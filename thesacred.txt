@@ -646,7 +646,7 @@ loc 08901b 305-08
 
 loc 793aeb closet
 
-loc 08531d CN2-08
+loc 08531d CN2-09
 loc 085ac4 CN2-10
 loc 085e0b CN2-13
 loc 085cf8 CN3-08
