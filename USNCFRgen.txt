@@ -4,7 +4,7 @@ stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
 #claymore=flags -dcri 9
 #autoreboot 3
-#test
+
 #(clocks)
 #globalcore 
 #globalmem 
