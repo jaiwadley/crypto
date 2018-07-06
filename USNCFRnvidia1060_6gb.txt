@@ -35,6 +35,9 @@ proxypool2 us2.ethermine.org:4444
 
 #|||||NICKNAMES|||||
 custompanel prti18918600
+
+loc 489909 001-11
+
 loc 6e6599 201-01
 loc 242e07 201-02
 loc 6e676c 201-03
