@@ -1,0 +1,19 @@
+#|||||SETTINGS|||||
+globalminer claymore
+stratumproxy enabled
+safevolt disabled
+flags --cl-global-work 8192 --farm-recheck 200
+
+maxgputemp 95
+
+proxywallet
+proxypool1 us1.ethermine.org:4444
+proxypool2 us2.ethermine.org:4444
+
+#|||||INDIVIDUAL RIG SETTINGS|||||
+
+#(rig VAIO-1)
+loc aaaaaa VAIO-1
+
+#(rig VAIO-2)
+loc aaaaaa VAIO-2
