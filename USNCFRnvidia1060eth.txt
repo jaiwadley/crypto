@@ -2,12 +2,10 @@
 globalminer ethminer
 stratumproxy enabled
 flags --cl-global-work 8192 --farm-recheck 200
-#autoreboot 1
 
-#globalcore 1750
 globalmem 4300
 globalfan 90
-globalpowertune 95
+globalpowertune 91
 maxgputemp 95
 
 #(ETH)
