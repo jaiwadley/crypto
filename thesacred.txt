@@ -12,7 +12,7 @@ globalfan 90
 #globalpowertune 
 maxgputemp 95
 
-#(LBC dual mine)
+#(dual mine)
 #dualminer enabled
 #dualminer-coin
 #dualminer-wallet
