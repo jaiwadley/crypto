@@ -3,7 +3,6 @@ globalminer claymore
 stratumproxy enabled
 safevolt disabled
 flags --cl-global-work 8192 --farm-recheck 200
-#autoreboot 3
 
 #(clocks)
 #globalcore 
@@ -14,9 +13,9 @@ maxgputemp 95
 
 #(LBC dual mine)
 #dualminer enabled
-#dualminer-coin lbc
-#dualminer-wallet (insert jason's lbc address here)
-#dualminer-pool (insert lbc pool here)
+#dualminer-coin
+#dualminer-wallet
+#dualminer-pool
 
 #(ETH)
 #Gemini:
@@ -50,6 +49,7 @@ vlt 4dc82f 950 950 950 950 950 950
 #pwr 4dc82f
 #dpm 4dc82f
 #fan 4dc82f
+#flg 08531d -dcri 6
 
 #(rig 000-02)
 cor f648f5 1175 1175 1175 1175 1175 1175
@@ -425,12 +425,6 @@ mem 793aeb 1875 1875 1875 1875 1875 1875 1875 1875 1875
 vlt 793aeb 950 950 950 950 950 950 950 950 950
 
 #(rig CN2-08) 
-#cor 08531d
-#mem 08531d
-#fan 08531d
-#vlt 08531d
-#dpm 08531d
-#pwr 08531d 
 #flg 08531d -dcri 9
 
 #(rig CN2-10)
