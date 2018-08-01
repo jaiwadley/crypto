@@ -2,14 +2,8 @@
 
 globalminer claymore
 stratumproxy enabled
-safevolt disabled
 flags --cl-global-work 8192 --farm-recheck 200
-
-#(clocks)
-#globalcore 
-#globalmem 
 globalfan 90
-#globalpowertune 
 maxgputemp 95
 
 #(ETH)
@@ -35,7 +29,6 @@ proxypool2 us2.ethermine.org:4444
 #proxywallet t1N74buU4u34nahQZsVABZAj4SLBK3ZP21z
 #proxypool1 zec-us-east1.nanopool.org:6666
 #proxypool2 zec-us-west1.nanopool.org:6666
-
 
 #|||||NICKNAMES|||||
 custompanel prti18918600
