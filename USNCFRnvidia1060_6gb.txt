@@ -1,10 +1,9 @@
 #|||||SETTINGS|||||
 stratumproxy enabled
-flags --cl-global-work 8192 --farm-recheck 200
-#autoreboot 3
 
 #(ETH)
 globalminer ethminer
+flags --cl-global-work 8192 --farm-recheck 200
 globalmem +500
 globalfan 90
 globalpowertune 91
