@@ -32,9 +32,9 @@ proxypool2 us2.ethermine.org:4444
 #Poloniex:
 #proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
 #Exodus:
-#proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
-#proxypool1 us1-etc.ethermine.org:4444
-#proxypool2 us1-etc.ethermine.org:14444
+proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
+proxypool1 us1-etc.ethermine.org:4444
+proxypool2 us1-etc.ethermine.org:14444
 
 #(ZEC)
 #???:
@@ -332,31 +332,6 @@ vlt 4d1a10 950 950 950 950 950 950
 cor 4dc8d9 1125 1125 1125 1125 1125 1125
 mem 4dc8d9 1950 1950 1950 1950 1950 1950
 vlt 4dc8d9 950 950 950 950 950 950
-
-#(201-07)
-mem 6e6649 4200 4200 4200 4200 4200 4200 4200 4200
-pwr 6e6649 91 91 91 91 91 91 91 91
-miner 6e6649 ethminer
-
-#(201-08)
-mem 242bb7 3800 4200 4200 4200 4200 4200 4200 4200
-pwr 242bb7 91 91 91 91 91 91 91 91
-miner 242bb7 ethminer
-
-#(204-01)
-mem 242dcc 4200 3800 4200 4200 4200 4200 4200 4200
-pwr 242dcc 91 91 91 91 91 91 91 91
-miner 242dcc ethminer
-
-#(204-08)
-mem 6e6687 4200 4200 4200 4200 4200 4200 4200 4200
-pwr 6e6687 91 91 91 91 91 91 91 91
-miner 6e6687 ethminer
-
-#(207-03)
-mem 6e65a1 4200 4200 4200 4200 4200 4200 4200 4200
-pwr 6e65a1 91 91 91 91 91 91 91 91
-miner 6e65a1 ethminer
 
 #(212-05)
 cor b52f61 1125 1125 1125 1125 1125 1125 1125 1125
