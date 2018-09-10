@@ -32,9 +32,9 @@ proxypool2 us2.ethermine.org:4444
 #Poloniex:
 #proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
 #Exodus:
-proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
-proxypool1 us1-etc.ethermine.org:4444
-proxypool2 us1-etc.ethermine.org:14444
+#proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
+#proxypool1 us1-etc.ethermine.org:4444
+#proxypool2 us1-etc.ethermine.org:14444
 
 #(ZEC)
 #???:
