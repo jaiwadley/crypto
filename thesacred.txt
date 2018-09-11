@@ -443,16 +443,17 @@ flg 085ac4 -dcri 9
 #(CN3-08) 
 #flg 085cf8 -dcri 9
 
-#(CNJWOf) 
-mem 0830e8 4600 4600 4600 4600 4600 4600 4600 4590
-pwr 0830e8 91 91 91 91 91 91 91 91
-miner 0830e8 ethminer
-
 #(CNtr01)
-flg 085b03 -dcri 9
+mem 085b03 1900 1900 1900 1900 1900 1900 1900 1900 1900 
+#flg 085b03 -dcri 9
 
 #(CNtr02)
 flg 0853c1 -dcri 9
+
+#(t30406) 
+mem 0830e8 4600 4600 4600 4600 4600 4600 4600 4590
+pwr 0830e8 91 91 91 91 91 91 91 91
+miner 0830e8 ethminer
 
 #|||||NICKNAMES|||||
 custompanel prti18918600
