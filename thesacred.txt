@@ -1,6 +1,7 @@
 #|||||SETTINGS|||||
 
 globalminer claymore
+claymore=flags -allcoins etc
 stratumproxy enabled
 safevolt disabled
 flags --cl-global-work 8192 --farm-recheck 200
