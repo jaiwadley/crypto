@@ -6,7 +6,7 @@ globalminer ethminer
 flags --cl-global-work 8192 --farm-recheck 200
 globalmem +500
 globalfan 90
-globalpowertune 90
+globalpowertune 80
 maxgputemp 95
 #Gemini:
 #proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
@@ -33,6 +33,9 @@ proxypool2 us1-etc.ethermine.org:14444
 #proxypool2 zec-us-west1.nanopool.org:6666
 
 #|||||RIG SETTINGS|||||
+#(201-01)
+pwr 6e6559 80 80 80 80 80 80 80 80
+
 #(201-04)
 mem 6e6691 4200 4200 4200 4200 4100 4100 4100 4100
 
