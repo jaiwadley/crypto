@@ -32,9 +32,7 @@ proxypool2 us1-etc.ethermine.org:14444
 #proxypool1 zec-us-east1.nanopool.org:6666
 #proxypool2 zec-us-west1.nanopool.org:6666
 
-#|||||RIG SETTINGS|||||
-#(201-01)
-pwr 6e6559 80 80 80 80 80 80 80 80
+#|||||INDIVIDUAL RIG SETTINGS|||||
 
 #(201-04)
 mem 6e6691 4200 4200 4200 4200 4100 4100 4100 4100
