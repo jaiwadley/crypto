@@ -16,27 +16,7 @@ maxgputemp 95
 #proxypool2 us2.ethermine.org:4444
 #(ETC)
 #Poloniex:
-#proxywallet 0x5d832e8fde339acbfe1cb76bddbd1dffec01c908
-#Exodus:
-proxywallet 0x4fDFC8761dDeBbA2254b3a05b2D5e6c34e9414eA
-proxypool1 us1-etc.ethermine.org:4444
-proxypool2 us1-etc.ethermine.org:14444
-
-#(ZEC)
-#globalminer dstm-zcash
-#globalcore 2090
-#globalmem 4250
-#globalfan 90
-#globalpowertune 90
-#proxywallet t1N74buU4u34nahQZsVABZAj4SLBK3ZP21z
-#proxypool1 zec-us-east1.nanopool.org:6666
-#proxypool2 zec-us-west1.nanopool.org:6666
-
-#|||||INDIVIDUAL RIG SETTINGS|||||
-
-#(201-04)
-cor 6e6691 1800 1800 1800 1800 1800 1500 1500 1800
-mem 6e6691 3800 3800 3800 3800 3800 3100 3400 3800
+#proxywallet 0x5d832e8fde339acbfe1cb76bddbd1d00 3800
 
 #(201-07)
 mem 6e6649 4200 4200 4200 4200 4200 4200 4200 4200
