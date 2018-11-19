@@ -1,6 +1,7 @@
 #|||||SETTINGS|||||
+stratumproxy enabled
 
-globalminer claymore
+globalminer ethminer
 claymore=flags -allcoins etc
 stratumproxy miner
 safevolt disabled
