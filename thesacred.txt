@@ -153,7 +153,7 @@ miner 930414 ethminer
 miner 48994f ethminer
 
 #(001-08) 
-miner 489baf ethminer
+miner 489f1d ethminer
 
 #(001-09) 
 miner 489903 ethminer
@@ -501,7 +501,7 @@ loc 489664 001-04
 loc 727ecf 001-05
 loc 930414 001-06
 loc 48994f 001-07
-loc 489baf 001-08
+loc 489f1d 001-08
 loc 489903 001-09
 loc 489f11 001-10
 loc 489909 001-11
@@ -601,3 +601,4 @@ loc 0853c1 CNtr02
 
 loc 0830e8 t30406 
 loc 793aeb wayne
+loc 2bf241 prototype
