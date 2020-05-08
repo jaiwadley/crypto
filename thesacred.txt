@@ -22,7 +22,9 @@ maxgputemp 95
 
 #(ETH)
 #Gemini:
-proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
+#proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
+proxywallet 0xf91bE51cE48a5551c7420a581346C44fe709D41b
+
 #???:
 #proxywallet 0x966C32aD0190B74dc561db93EcAf3f439B7E1A77
 proxypool1 us1.ethermine.org:4444
