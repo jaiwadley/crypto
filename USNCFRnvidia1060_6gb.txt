@@ -4,9 +4,9 @@ stratumproxy enabled
 #(ETH)
 globalminer ethminer
 flags --cl-global-work 8192 --farm-recheck 200
-globalmem +400
-globalfan 90
-globalpowertune 60
+globalmem +450
+globalfan 100
+globalpowertune70
 maxgputemp 95
 #Gemini:
 #proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
