@@ -4,9 +4,9 @@ stratumproxy enabled
 #(ETH)
 globalminer ethminer
 flags --cl-global-work 8192 --farm-recheck 200
-globalmem +500
+globalmem +400
 globalfan 90
-globalpowertune 80
+globalpowertune 60
 maxgputemp 95
 #Gemini:
 #proxywallet 0xDc8C597810eEE2380Acf9A04F6EDDb5914F154Ca
@@ -24,10 +24,10 @@ proxypool2 us2.ethermine.org:4444
 #proxypool2 us1-etc.ethermine.org:14444
  #(ZEC)
 #globalminer dstm-zcash
-#globalcore 2090
-#globalmem 4250
+#globalcore 2050
+#globalmem 4150
 #globalfan 90
-#globalpowertune 90
+#globalpowertune 80
 #proxywallet t1N74buU4u34nahQZsVABZAj4SLBK3ZP21z
 #proxypool1 zec-us-east1.nanopool.org:6666
 #proxypool2 zec-us-west1.nanopool.org:6666
