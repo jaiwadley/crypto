@@ -459,30 +459,37 @@ mem 793aeb 1875 1875 1875 1875 1875 1875 1875 1875 1875
 vlt 793aeb 950 950 950 950 950 950 950 950 950
 
 #(CN2-09) 
+miner 08531d phoenixminer
 #mem 08531d 
 #flg 08531d -dcri 9
 
 #(CN2-10)
+miner 08bff4 phoenixminer
 #mem 08bff4 1950 1950 1950 1950 1950 1950 1950 1950 1950
 #flg 08bff4 -dcri 9
 
 #(CN2-13) 
+miner 085e0b phoenixminer
 #mem 085e0b 2000 2000 2000 2000 2000 2000 2000 1900
 #flg 085e0b -dcri 9
 
 #(CN3-08) 
+miner 085cf8 phoenixminer
 #mem 085cf8 1950 1950 1950 2000 2000 2000 1950 1950 1950
 #flg 085cf8 -dcri 9
 
 #(CNtr01)
+miner 085b03 phoenixminer
 #mem 085b03 1900 1900 1900 1900 1900 1900 1900 1900 1900 
 #flg 085b03 -dcri 9
 
 #(CNtr02)
+miner 0853c1 phoenixminer
 #mem 0853c1 1900 1900 1900 1900 1900 1900 1900 1900 
 #flg 0853c1 -dcri 9
 
 #(t30406) 
+miner 0830e8 phoenixminer
 #mem 0830e8 4600 4600 4600 4600 4600 4600 4600 4590
 #pwr 0830e8 91 91 91 91 91 91 91 91
 #miner 0830e8 ethminer
