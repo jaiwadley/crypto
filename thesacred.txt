@@ -487,6 +487,9 @@ vlt 793aeb 950 950 950 950 950 950 950 950 950
 #pwr 0830e8 91 91 91 91 91 91 91 91
 #miner 0830e8 ethminer
 
+#(wayne)
+miner 793aeb phoenixminer
+
 #|||||NICKNAMES|||||
 custompanel prti18918600
 loc 4dc82f 000-01
