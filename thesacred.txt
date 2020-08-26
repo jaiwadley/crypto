@@ -561,6 +561,9 @@ miner 0830e8 phoenixminer
 #pwr 0830e8 91 91 91 91 91 91 91 91
 #miner 0830e8 ethminer
 
+#(prototype)
+miner 2bf241 phoenixminer
+
 #(wayne)
 miner 793aeb phoenixminer
 
