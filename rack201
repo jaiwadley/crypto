@@ -1,0 +1,18 @@
+globalminer ethminer
+stratumproxy enabled
+stratumproxy miner
+safevolt disabled
+flags --cl-global-work 8192 --farm-recheck 200
+
+proxywallet 0xf91bE51cE48a5551c7420a581346C44fe709D41b
+proxypool1 us1.ethermine.org:4444
+proxypool2 us1.ethermine.org:14444
+proxypool1 us2.ethermine.org:4444
+
+globalcore 1950
+globalmem 4200
+globalfan 90
+maxgputemp 97
+autoreboot true
+custompanel prti
+
