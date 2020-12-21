@@ -173,10 +173,10 @@ mem 489f11 +500 +490 +500 +500 +500 +500
 miner 489f11 ethminer
 
 #(001-11)
-miner 489909 phoenixminer
-#cor 489909 +200
-#mem 489909 1800
-#vlt 489909 975
+miner 4af4d4 phoenixminer
+#cor 4af4d4 +200
+#mem 4af4d4 1800
+#vlt 4af4d4 975
 
 #(001-12) 
 miner 489a01 ethminer
